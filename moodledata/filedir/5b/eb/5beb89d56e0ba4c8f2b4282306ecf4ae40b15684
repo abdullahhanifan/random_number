@@ -1,0 +1,4737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Default for Logika Matematika</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>The default category for questions shared in context 'Logika Matematika'.</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Default for Logika Matematika/CLO 1</text>
+    </category>
+    <info format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Online Quiz for CLO 1<br></p>]]></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 29633678  -->
+  <question type="matching">
+    <name>
+      <text>Logika Proposisi 1.10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>Determine whether the following expression is a propositional formula or not.</p><p><strong>ID:</strong> Tentukan apakah ekspresi berikut ini merupakan formula logika proposisi atau bukan.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( p \oplus p \vee q \rightarrow r \wedge s  \)<br></p>]]></text>
+      <answer>
+        <text>propositional formula (formula logika proposisi)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\(  \sim \sim ( \sim p \rightarrow \sim \sim r)   \)<br></p>]]></text>
+      <answer>
+        <text>propositional formula (formula logika proposisi)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( p \wedge q \rightarrow \oplus r \vee s  \)<br></p>]]></text>
+      <answer>
+        <text>not a propositional formula (bukan formula logika proposisi)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( p \vee q \vee \rightarrow r \oplus s  \)<br></p>]]></text>
+      <answer>
+        <text>not a propositional formula (bukan formula logika proposisi)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\(  \sim ( (p \rightarrow q) \sim (r \oplus s) )  \)<br></p>]]></text>
+      <answer>
+        <text>not a propositional formula (bukan formula logika proposisi)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( p \wedge q \sim r \)<br></p>]]></text>
+      <answer>
+        <text>not a propositional formula (bukan formula logika proposisi)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( p \oplus q \ \leftrightarrow r \vee \sim t \)<br></p>]]></text>
+      <answer>
+        <text>propositional formula (formula logika proposisi)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \sim p \rightarrow \sim p \oplus q \)<br></p>]]></text>
+      <answer>
+        <text>propositional formula (formula logika proposisi)</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633679  -->
+  <question type="matching">
+    <name>
+      <text>Logika Proposisi 2.2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Determine the truth value of the following statements.<br></p><p><strong>ID:</strong> Tentukan nilai kebenaran dari pernyataan berikut.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>EN:</strong> 2+2 = 4 if and only if 1 + 1 = 2 <br></p><p><strong>ID:</strong> 2+2 = 4 jika dan hanya jika 1+1 = 2</p>]]></text>
+      <answer>
+        <text>true</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>EN:</strong> 1 + 1 = 2 if and only if 2 + 3 = 4<br></p><p><strong>ID:</strong> 1+1 = 2 jika dan hanya jika 2+3 = 4</p>]]></text>
+      <answer>
+        <text>false</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>EN:</strong> 1 +1 = 3 if and only if monkeys can fly.<br></p><p><strong>ID:</strong> 1+1 = 3 jika dan hanya jika moyet dapat terbang.</p>]]></text>
+      <answer>
+        <text>true</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>EN:</strong> 0 &gt; 1 if and only if 2 &gt; 1 <br></p><p><strong>ID:</strong> 0 &gt; 1 jika dan hanya jika 2 &gt; 1</p>]]></text>
+      <answer>
+        <text>false</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>EN:</strong>if 1 + 1 =3, then unicorn exists. <br></p><p><strong>ID:</strong> Jika 1+1 = 3, maka unicorn memang benar ada.</p>]]></text>
+      <answer>
+        <text>true</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>EN:</strong> if 1 + 1 = 3, then dogs can fly.</p><p><strong>ID:</strong> Jika 1+1 = 3, maka anjing dapat terbang.<br></p>]]></text>
+      <answer>
+        <text>true</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>EN:</strong> if 1 + 1 =2, then dogs can fly<br></p><p><strong>ID:</strong> Jika 1+1 = 2, maka anjing dapat terbang.<br></p>]]></text>
+      <answer>
+        <text>false</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>EN:</strong> if 2 + 2 =4, then 1 + 2 = 3<strong><br></strong></p><p><strong>ID:</strong> jika 2+2 = 4, maka 1+2 = 3</p>]]></text>
+      <answer>
+        <text>true</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633680  -->
+  <question type="matching">
+    <name>
+      <text>Logika Proposisi 2.3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong></p><p>Determine the converse, inverse, and contrapositive of this sentence:<strong><br></strong></p><p>"I go to the beach in every sunny summer day"<strong><br></strong></p><p><strong>ID:</strong><br></p><p>Tentukan konvers, invers, dan kontraposisi dari kalimat berikut.</p><h5><span tabindex="0" lang="id">"Saya pergi ke pantai setiap kali hari musim panas yang cerah"</span></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>converse (konvers)</p>]]></text>
+      <answer>
+        <text>If I go to the beach, then it is a sunny summer day. (Jika saya pergi ke pantai, maka itu adalah hari musim panas yang cerah.)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>contrapositive (kontraposisi)</p>]]></text>
+      <answer>
+        <text>If I don't go to the beach, then it is not a sunny summer day. (Jika saya tidak pergi ke pantai, maka itu bukan hari musim panas yang cerah.)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>inverse (invers)</p>]]></text>
+      <answer>
+        <text>If it is not a sunny summer day, then I don't go to the beach. (Jika bukan hari musim panas yang cerah, maka saya tidak pergi ke pantai)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>If it is a sunny summer day, then I go to the beach. (Jika itu adalah hari musim panas yang cerah, maka saya pergi ke pantai.)</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633681  -->
+  <question type="matching">
+    <name>
+      <text>Logika Proposisi 3.1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Observe the following compound proposition.</p><p><strong></strong></p><h5><span class="" style="color: rgb(255, 51, 102);">"If that dear was alerted and moved quicker, then the crocodile would not be able to catch it."</span></h5><p>If we have the following atomic proposition:</p><p>p: that dear was alerted; q: that dear moved quicker, r: the crocodile would not be able to catch the dear</p><p>determine the truth values of each atomic propositions so that the compound proposition above is <em>false</em>.<br></p><p><br></p><p></p><p><strong>ID:</strong> Perhatikan Proposisi Majemuk berikut.</p><h5><span class="" style="color: rgb(255, 51, 102);">"Jika rusa itu waspada dan bergerak lebih cepat, maka buaya itu tidak akan mampu menangkapnya."</span></h5><p>Jika proposisi atom yang membentuknya adalah:</p><h5>p: rusa itu waspada; q: rusa itu bergerak lebih cepat; r: buaya itu tidak akan mampu menangkap rusa<br></h5><p>maka tentukanlah nilai kebenaran dari masing-masing proposisi atomiknya yang akan membentuk bahwa proposisi majemuk di atas bernilai <em>salah.</em></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>p</p>]]></text>
+      <answer>
+        <text>True</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>q</p>]]></text>
+      <answer>
+        <text>True</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>r</p>]]></text>
+      <answer>
+        <text>False</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633682  -->
+  <question type="matching">
+    <name>
+      <text>Proposisi 1: Definisi operator</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Match the following operators to their definitions.<br></p><p><strong>ID:</strong> Pasangkan operator berikut dengan definisinya.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \land \)</p>]]></text>
+      <answer>
+        <text>and operator (operator dan)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \lor \)<br></p>]]></text>
+      <answer>
+        <text>or operator (operator atau)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \oplus \)<br></p>]]></text>
+      <answer>
+        <text>exclusive or (operator atau eksklusif)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \rightarrow \)<br></p>]]></text>
+      <answer>
+        <text>if-then operator (operator jika-maka)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \leftrightarrow \)<br></p>]]></text>
+      <answer>
+        <text>if and only if operator (operator jika dan hanya jika)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \neg \)</p>]]></text>
+      <answer>
+        <text>negation operator (operator negasi)</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633683  -->
+  <question type="matching">
+    <name>
+      <text>Proposisi 1: Preseden</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Sort the following logical operators based on their precedence (order of operation).<br></p><p><strong>ID: </strong>Urutkan operator logika berikut sesuai dengan presedennya (urutan pengerjaannya).</p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \land \)</p>]]></text>
+      <answer>
+        <text>2</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \rightarrow \)</p>]]></text>
+      <answer>
+        <text>5</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \neg \)</p>]]></text>
+      <answer>
+        <text>1</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \lor \)</p>]]></text>
+      <answer>
+        <text>3</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \oplus \)</p>]]></text>
+      <answer>
+        <text>4</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( \leftrightarrow \)</p>]]></text>
+      <answer>
+        <text>6</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633684  -->
+  <question type="matching">
+    <name>
+      <text>Proposisi 3: Konsistensi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>Inhabitants of an island can be divided into <strong>the knights</strong> and <strong>the knaves.</strong> Knights always tell the truth, whereas knaves always tell a lie. In addition, the knights like to help people, while the knaves are notorious for their cannibalism. One day, you are stranded on this island. Fortunately, you know that an inhabitant of this island is either a knight or a knave. You encounter two people, Pluck and Qluck. Pluck says, "<strong>At least one of us is a knave</strong>" and Qluck says nothing. Can you determine who is the knight and/ or who is the knave?<strong><br></strong></p><p><strong>ID: </strong>Penduduk di sebuah pulau terpencil dapat dikelompokkan menjadi dua golongan, yaitu <strong>kelompok alim (knight)</strong> dan <strong>k</strong><strong>elompok pendusta (knave)</strong>. Setiap orang di kelompok alim selalu berkata jujur, sedangkan setiap orang di kelompok pendusta selalu berbohong.<br>Suatu ketika Anda terdampar di pulau terpencil tersebut. Anda mengetahui bahwa penduduk di pulau itu terdiri atas kelompok alim dan kelompok pendusta. Anda bertemu dengan dua orang, yaitu Pluck dan Qluck.&nbsp; Pluck berkata, <strong>“Setidaknya salah satu di antara kami adalah pendusta”</strong>. Qluck tidak mengatakan apa-apa. Apakah Anda dapat mengetahui siapa yang termasuk kelompok alim dan siapa yang termasuk kelompok pendusta? 
+<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text>Pluck</text>
+      <answer>
+        <text>knight (alim)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Qluck</p>]]></text>
+      <answer>
+        <text>knave (pendusta)</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>cannot be determined (tidak dapat ditentukan)</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633685  -->
+  <question type="matching">
+    <name>
+      <text>System Specification</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN:</strong> Suppose we have the following atomic propositions:</p><p dir="ltr" style="text-align: left;">w: the game can be played on Windows, u: the game can be played on Linux, and m: the game can be played on Mac OS.</p><p dir="ltr" style="text-align: left;">Suppose we have the following specifications:</p><p dir="ltr" style="text-align: left;">S1: the game can be played on Windows or Mac OS.</p><p dir="ltr" style="text-align: left;">S2: the game can be played on Mac OS if and only if it can be played on Linux.</p><p dir="ltr" style="text-align: left;">S3: the game cannot be played on Windows or it cannot be played on Mac OS.</p><p dir="ltr" style="text-align: left;">S4: if the game cannot be played on Mac OS, then it can be played on Windows.</p><p dir="ltr" style="text-align: left;">Determine the truth values of w, u, and m that makes the above specifications consistent.</p><p dir="ltr" style="text-align: left;"></p><p dir="ltr"><strong><br></strong></p><p dir="ltr"><strong>ID: </strong>Misalkan kita memiliki pernyataan berikut:</p><p dir="ltr">w: permainan dapat dimainkan di Windows, u: permaindan dapat dimainkan di Linux, and m: permainan dapat dimainkan di Mac OS.</p><p dir="ltr">Misalkan kita memiliki spesifikasi-spesifikasi berikut:</p><p dir="ltr">S1: permainan dapat dimainkan pada Windows atau Mac OS.</p><p dir="ltr">S2: permainan dapat dimainkan pada Mac OS jika dan hanya jika dapat dimainkan pada Linux.</p><p dir="ltr">S3: permainan tidak dapat dimainkan pada Windows atau tidak dapat dimainkan pada Mac OS.</p><p dir="ltr">S4: jika permainan tidak dapat dimainkan pada Mac OS, maka permainan dapat dimaika pada Windows.</p><p dir="ltr">Tentukan nilai kebenaran untuk w, u, dan m yang membuat spesifikasi sistem konsisten.<br></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">w<br></p>]]></text>
+      <answer>
+        <text>True</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">m<br></p>]]></text>
+      <answer>
+        <text>False</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">u<br></p>]]></text>
+      <answer>
+        <text>False</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>cannot be determined (tidak dapat ditentukan)</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633686  -->
+  <question type="matching">
+    <name>
+      <text>Truth Table</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN: </strong>Suppose we consider the following truth table<br></p><table><thead><tr><th scope="col">\(p\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \rightarrow q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \vee \neg q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\( (p \rightarrow q) \leftrightarrow (p \vee \neg q)\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th></tr><tr><td>T</td><td>T</td><td>a-?<br></td><td>e-?<br></td><td>i-?</td></tr><tr><td>T</td><td>F</td><td>b-?</td><td>f-?</td><td>j-?</td></tr><tr><td>F</td><td>T</td><td>c-?</td><td>g-?</td><td>k-?</td></tr><tr><td>F</td><td>F</td><td>d-?</td><td>h-?</td><td>l-?</td></tr></thead></table><br><p></p><p>Determine the value of a, b, c, and d.</p><p></p><p dir="ltr" style="text-align: left;"><strong>ID:</strong> Misalkan kita meninjau tabel kebenaran berikut</p><p dir="ltr" style="text-align: left;"></p><table><thead><tr><th scope="col">\(p\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \rightarrow q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \vee \neg q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\( (p \rightarrow q) \leftrightarrow (p \vee \neg q)\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th></tr><tr><td>T</td><td>T</td><td>a-?<br></td><td>e-?<br></td><td>i-?</td></tr><tr><td>T</td><td>F</td><td>b-?</td><td>f-?</td><td>j-?</td></tr><tr><td>F</td><td>T</td><td>c-?</td><td>g-?</td><td>k-?</td></tr><tr><td>F</td><td>F</td><td>d-?</td><td>h-?</td><td>l-?</td></tr></thead></table><p><br></p><p>Tentukan nilai dari a, b, c, dan d.<br></p><p></p><p dir="ltr" style="text-align: left;"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">a<br></p>]]></text>
+      <answer>
+        <text>T</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">b<br></p>]]></text>
+      <answer>
+        <text>F</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>c</text>
+      <answer>
+        <text>T</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">d<br></p>]]></text>
+      <answer>
+        <text>T</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633687  -->
+  <question type="matching">
+    <name>
+      <text>Truth Table (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN: </strong>Suppose we consider the following truth table<br></p><table><thead><tr><th scope="col">\(p\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \rightarrow q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \vee \neg q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\( (p \rightarrow q) \leftrightarrow (p \vee \neg q)\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th></tr><tr><td>T</td><td>T</td><td>a-?<br></td><td>e-?<br></td><td>i-?</td></tr><tr><td>T</td><td>F</td><td>b-?</td><td>f-?</td><td>j-?</td></tr><tr><td>F</td><td>T</td><td>c-?</td><td>g-?</td><td>k-?</td></tr><tr><td>F</td><td>F</td><td>d-?</td><td>h-?</td><td>l-?</td></tr></thead></table><br><p></p><p>Determine the value of e, f, g, and h.<br></p><p></p><p dir="ltr" style="text-align: left;"><strong>ID:</strong> Misalkan kita meninjau tabel kebenaran berikut</p><p dir="ltr" style="text-align: left;"></p><table><thead><tr><th scope="col">\(p\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \rightarrow q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \vee \neg q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\( (p \rightarrow q) \leftrightarrow (p \vee \neg q)\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th></tr><tr><td>T</td><td>T</td><td>a-?<br></td><td>e-?<br></td><td>i-?</td></tr><tr><td>T</td><td>F</td><td>b-?</td><td>f-?</td><td>j-?</td></tr><tr><td>F</td><td>T</td><td>c-?</td><td>g-?</td><td>k-?</td></tr><tr><td>F</td><td>F</td><td>d-?</td><td>h-?</td><td>l-?</td></tr></thead></table><p><br></p><p>Tentukan nilai dari e, f, g, dan h.<br></p><p></p><p dir="ltr" style="text-align: left;"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">e<br></p>]]></text>
+      <answer>
+        <text>T</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>f</text>
+      <answer>
+        <text>T</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[g<br>]]></text>
+      <answer>
+        <text>F</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>h</text>
+      <answer>
+        <text>T</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633688  -->
+  <question type="matching">
+    <name>
+      <text>Truth Table (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN: </strong>Suppose we consider the following truth table<br></p><table><thead><tr><th scope="col">\(p\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \rightarrow q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \vee \neg q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\( (p \rightarrow q) \leftrightarrow (p \vee \neg q)\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th></tr><tr><td>T</td><td>T</td><td>a-?<br></td><td>e-?<br></td><td>i-?</td></tr><tr><td>T</td><td>F</td><td>b-?</td><td>f-?</td><td>j-?</td></tr><tr><td>F</td><td>T</td><td>c-?</td><td>g-?</td><td>k-?</td></tr><tr><td>F</td><td>F</td><td>d-?</td><td>h-?</td><td>l-?</td></tr></thead></table><br><p></p><p>Determine the value of i, j, k, and l.<br></p><p></p><p dir="ltr" style="text-align: left;"><strong>ID:</strong> Misalkan kita meninjau tabel kebenaran berikut</p><p dir="ltr" style="text-align: left;"></p><table><thead><tr><th scope="col">\(p\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \rightarrow q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\(p \vee \neg q\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th><th scope="col">\( (p \rightarrow q) \leftrightarrow (p \vee \neg q)\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></th></tr><tr><td>T</td><td>T</td><td>a-?<br></td><td>e-?<br></td><td>i-?</td></tr><tr><td>T</td><td>F</td><td>b-?</td><td>f-?</td><td>j-?</td></tr><tr><td>F</td><td>T</td><td>c-?</td><td>g-?</td><td>k-?</td></tr><tr><td>F</td><td>F</td><td>d-?</td><td>h-?</td><td>l-?</td></tr></thead></table><p><br></p><p>Tentukan nilai dari i, j, k, dan l.<br></p><p></p><p dir="ltr" style="text-align: left;"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text>i</text>
+      <answer>
+        <text>T</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>j</text>
+      <answer>
+        <text>F</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[k<br>]]></text>
+      <answer>
+        <text>F</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text>l</text>
+      <answer>
+        <text>T</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633689  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1: Definisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> What are the properties of a proposition?<strong><br></strong></p><p><strong>ID:</strong> Apa saja syarat suatu proposisi?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>it must be a statement (harus berupa kalimat pernyataan)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>it has a truth value (harus mempunyai nilai kebenaran)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>it must be an imperative sentence (harus merupakan kalimat perintah)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>it must be a question (harus merupakan kalimat pertanyaan)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>it does not have a truth value (tidak mempunyai nilai kebenaran)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633690  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1: Definisi (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> An implication \( p \rightarrow q \) is equivalent to its:<br></p><p><strong>ID:</strong> Sebuah implikasi \( p \rightarrow q \) ekuivalen (atau setara) dengan:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text>contraposition (kontraposisinya)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>inverse (inversnya)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text>converse (konversnya)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text>negation (negasinya)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>bi-implication (biimplikasinya)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633691  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1: Implikasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> How do we read p\(  \rightarrow  \) q?&nbsp; <br></p><p><strong>ID:</strong> Bagaimana kita membaca p\(  \rightarrow  \) q?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>if p then q (jika p, maka q)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>p is sufficient for q (p adalah syarat cukup untuk q)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[p implies q (p mengakibatkan q)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>p if q (p jika q)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>p is implied by q (p diakibatkan oleh q)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633692  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1: Negasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> What is the negation of 2<sup>10</sup> &lt; 10<sup>2</sup>?<br></p><p><strong>ID:</strong> Apakah negasi dari 2<sup>10</sup> &lt; 10<sup>2</sup> ?<br></p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[2<sup>10</sup>&nbsp;\( \geq \)&nbsp;10<sup>2</sup>&nbsp;]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>2<sup>10</sup>&nbsp;&gt; 10<sup>2</sup>&nbsp;</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[2<sup>10</sup>&nbsp;= 10<sup>2</sup>&nbsp;]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[2<sup>10</sup>&nbsp;\( \leq \)&nbsp;10<sup>2</sup>&nbsp;]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>2<sup>10</sup>&nbsp;\( \neq \)&nbsp;10<sup>2</sup></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633693  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1.1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Choose all propositions.</p><p><strong>ID:</strong> Pilihlah semua proposisi.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Bandung is the Capital of Bangka Belitung Islands. (Bandung adalah ibukota Provinsi Kepulauan Bangka Belitung.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>What day is it today? (Hari apa ini hari apa?)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>\( 2x+2=7 \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>Copy this writing! (Salinlah tulisan ini!)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633694  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1.2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>Select all statements which are <strong>not </strong>propositions.<br></p><p><strong>ID:</strong> Pilihkah semua pernyataan yang <strong>bukan</strong> merupakan proposisi.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>All bats are mammals. (Semua kelelawar adalah hewan menyusui.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>\( 5 \times 12 = 60 \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\( 3x - 4 = 5x + 14 \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>\( x+y = y + x \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633695  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1.3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> All of the following statements are propositions, <em>except</em><br></p><p><strong>ID:</strong> Pertanyaan berikut ini merupakan proposisi, <em>kecuali</em></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ir. Soekarno is the first president of Indonesia (Ir. Soekarno adalah presiden pertama Indonesia.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>10 is a prime number (10 adalah bilangan prima.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>15 - 12 = 3</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4 is a factor of 20 (4 adalah salah satu faktor dari 20.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>&nbsp;\( x+2 \) is an integer (\( x+2 \) adalah bilangan bulat)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633696  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1.4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> The following statements can only be represented as atomic formulas, <em>except</em><strong><br></strong></p><p><strong>IN:</strong> Pernyataan-pernyataan berikut hanya dapat dinyatakan dalam formula atomik, <em>kecuali</em></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Muhammad Hatta is the first president of Indonesia. (Muhammad Hatta adalah presiden pertama Indonesia.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>3 + 4 = 7</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>5 is an even number. (5 adalah bilangan genap.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Telkom University students are good at making computer programs. (Mahasiswa Universitas Telkom pintar membuat program komputer.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>5 is both odd and prime integers. (5 adalah bilangan ganjil dan prima.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633697  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1.5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> The following sentences can be expressed in compound propositional formulas, <em>except</em><br></p><p><strong>ID:</strong> Kalimat-kalimat berikut dapat dinyatakan dalam proposisi majemuk, <em>kecuali</em></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text>Visitors of the bazaar will get free laptop and phone credits. (Para pengunjung bazar akan mendapat laptop dan voucher pulsa gratis.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>There is no difficult course if we study diligently. (Tidak ada mata kuliah yang sulit jika kami rajin belajar.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>If 2 + 3 = 10, then the Earth will stop rotating. (Jika 2 + 3 = 10, maka Bumi akan berhenti berputar.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Telkom University students are good at making computer programs and assembling computer hardware. (Mahasiswa Universitas Telkom pintar membuat program dan merakit hardware komputer.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>5 is an even number. (5 adalah bilangan genap.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633698  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1.6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Given the following propositions:</p><p>p: Today I went to campus.</p><p>q: Today I went to the mall.</p><p>Express the following sentence using logical symbols: "Today I didn't go to campus but I went to the mall."<br></p><p><strong>ID:</strong> Diberikan proposisi berikut:</p><h5>p : Hari ini saya berangkat ke kampus<br>q : Hari ini saya ke mall.</h5><p>Nyatakan kalimat berikut dengan simbol logika: "Hari ini saya tidak berangkat ke kampus tetapi saya pergi ke mall."</p><br><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(  \sim p \wedge q  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(  \sim p \vee \sim q  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(  \sim (p \wedge q)  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(  \sim q \rightarrow p  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( q \leftrightarrow \sim p  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633699  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1.7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Given the following propositions:</p><p></p><h5>p : Today I went to campus.</h5><h5>q : Today I went to the mall.</h5><h5>Express the following sentences using logical symbols: "It is not true that I went to campus and to the mall".</h5><h5><br></h5><h5><strong>ID:</strong> Diberikan proposisi berikut:</h5><h5>p : Hari ini saya berangkat ke kampus<br>q : Hari ini saya ke mall.</h5><p>Nyatakan kalimat berikut dengan simbol logika: "Tidak benar hari ini saya berangkat ke kampus dan ke mall."</p><br><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-16.66667" format="html">
+      <text><![CDATA[<p>\(  \sim p \wedge q  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>\(  \sim p \vee \sim q  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>\(  \sim (p \wedge q)  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-16.66667" format="html">
+      <text><![CDATA[<p>\(  \sim q \rightarrow p  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-16.66667" format="html">
+      <text><![CDATA[<p>\( q \leftrightarrow \sim p  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633700  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 1.8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Given two following propositions:</p><p>p: students are happy; q: the lecturer is not coming<strong><br></strong></p><p>Express the following sentences using logical symbols: "if the lecturer is coming then students aren't happy, and if the students aren't happy&nbsp; then the lecturer is coming.<strong></strong><strong></strong><strong><br></strong></p><p><strong>ID:</strong> Diberikan proposisi berikut:</p><h5>p : mahasiswa senang; q : dosen tidak datang.</h5><p>Nyatakan kalimat berikut dengan simbol logika: "jika dosen datang maka mahasiswa tidak senang, dan jika mahasiswa tidak senang maka dosen datang."</p><br><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text>\( p \leftrightarrow \sim q \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\( p \leftrightarrow q \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\( \sim p \leftrightarrow \sim q \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\( \sim q \wedge \sim p \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\( q \leftrightarrow \sim p \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633701  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 2: Sifat</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Formula \( A \) of the form (p&nbsp;\(  \oplus  \) q) v&nbsp; (p&nbsp;\( \oplus \)&nbsp;~q) has the following properties:<strong><br></strong></p><p><strong></strong><strong>ID:</strong> Formula \( A \) yang berupa (p&nbsp;\(  \oplus  \) q) v&nbsp; (p&nbsp;\( \oplus \)&nbsp;~q) bersifat:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>valid (absah)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>not valid (tidak absah)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>satisfiable (terpenuhi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>contradiction (kontradiksi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>contingency</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633702  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 2: Sifat</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p id="yui_3_17_2_1_1600068610276_10590"><strong id="yui_3_17_2_1_1600068610276_10747">EN:</strong> Formula A of the form (p v q)&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math» (~p«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math»~q) has the following properties:<strong id="yui_3_17_2_1_1600068610276_11587"><br></strong></p><p id="yui_3_17_2_1_1600068610276_11626"><strong id="yui_3_17_2_1_1600068610276_11587"></strong><strong id="yui_3_17_2_1_1600068610276_10677">ID:</strong> Formula A yang berupa (p v q)&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math» (~p«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math»~q) bersifat:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>valid (absah)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>not a contradiction (tidak kontradiksi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text>satisfiable (terpenuhi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>contradiction (kontradiksi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>contingency</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633703  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 2: Sifat</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p id="yui_3_17_2_1_1600068792743_9758"><strong id="yui_3_17_2_1_1600068792743_9740">EN:</strong> Formula A of the form (p v q)&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math»&nbsp;~r&nbsp; has the following properties:<strong id="yui_3_17_2_1_1600068792743_10565"><br></strong></p><p id="yui_3_17_2_1_1600068792743_10596"><strong id="yui_3_17_2_1_1600068792743_10565"></strong><strong id="yui_3_17_2_1_1600068792743_9740">ID: </strong>Formula A yang berupa (p v q)&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math»&nbsp;~r&nbsp; bersifat:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>valid (absah)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>satisfiable (terpenuhi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text>contradiction (kontradiksi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>contingency</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633704  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 2.1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> What is the converse of the statement: "if you have the correct password, then you can login to your Facebook account".<strong><br></strong></p><p><strong>ID:</strong> Apakah konvers dari pernyataan: "Jika Anda memiliki password yang benar, maka Anda dapat login ke akun Facebook".<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If you have the correct password, then you can login to your Facebook account. (Jika Anda memiliki password yang benar maka Anda bisa log ini ke akun Facebook.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>If you can login to your Facebook account, then you have the correct password. (Jika Anda bisa log in ke akun Facebook maka Anda memiliki password yang benar.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If you don't have the correct password, then you cannot login to your Facbook account. (Jika Anda tidak memiliki password yang benar maka Anda bisa tidak log ini ke akun Facebook.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If you cannot login to your Facebook account, then you don't have the correct password. (Jika Anda tidak bisa log in ke akun Facebook maka Anda tidak memiliki password yang benar.)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633705  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 2.6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Determine the properties of the formula \(  (p \vee q) \wedge \sim p \wedge (p \rightarrow q) \wedge (\sim q) \).<br></p><p><strong>ID: </strong>Tentukan sifat dari formula berikut: \(  (p \vee q) \wedge \sim p \wedge (p \rightarrow q) \wedge (\sim q) \).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>contradiction (kontradiksi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>valid (absah)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>satisfiable (terpenuhi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>contigency</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633706  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 2.7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>If \(A\) is the negation of the formula \(  (p \vee q) \wedge \sim p \wedge (p \rightarrow q) \wedge (\sim q) \), what are the properties of \(A\)?</p><p><strong>ID: </strong>Jika \(A\) adalah negasi formula \(  (p \vee q) \wedge \sim p 
+\wedge (p \rightarrow q) \wedge (\sim q) \), apa saja sifat-sifat \(A\)?</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>contradiction (kontradiksi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>valid (absah)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>satisfiable (terpenuhi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>contingecy</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633707  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3: Inferensi Log Proposisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>EN:</strong> Choose all basic inference rules in propositional logic.<strong><br></strong></p><p><strong>ID:</strong> Dibawah ini yang termasuk aturan inferensi dasar (aturan penarikan kesimpulan dasar) pada logika proposisi adalah:</p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[modus ponens 
+<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>double negation introduction (introduksi negasi ganda)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>hypothetical syllogism (silogisme hipotetik)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>conjunction (konjungsi)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>disjunction (disjungsi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633708  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3: Konsistensi Spesifikasi Sistem</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>Five 
+convicts: Abby, Heather, Kevin, Randy, and Vijay, are suspected in a 
+bank robbery. The police did not know exactly who among the five people
+ were involved in the robbery. However, from credible sources, the 
+police learned that the following facts are true:</p><ol><li>Either Kevin or Heather or both were involved in the robbery.</li><li>One of Randy or Vijay, but not both, were involved in the robbery. <br></li><li>If Abby robbed the bank, so did Randy.</li><li>Vijay and Kevin were both involved in the robbery, or not at all.</li><li>If Heather robbed the bank, then so did Abby and Kevin</li></ol><p><strong>Is it possible to determine who did rob the bank from the above information alone? If so, who did rob the bank?</strong><br></p><p><strong>ID: </strong>Lima
+ orang residivis: Abby, Heather, Kevin, Randy, dan Vijay, dicurigai 
+terlibat dalam suatu perampokan bank. Polisi tidak mengetahui dengan 
+pasti siapa saja di antara lima orang tersebut yang terlibat dalam 
+perampokan bank, namun berdasarkan informasi seorang detektif, polisi 
+mengetahui bahwa fakta-fakta berikut:</p><ol><li>Kevin atau Heather, atau keduanya, terlibat perampokan.</li><li>Salah satu dari Randy atau Vijay, tetapi tidak keduanya, terlibat perampokan.</li><li>Jika Abby ikut merampok bank, maka Randy juga ikut dalam perampokan.</li><li>Vijay dan Kevin keduanya ikut dalam perampokan, atau tidak sama sekali.</li><li>Jika Heather ikut merampok, maka Abby dan Kevin juga ikut dalam perampokan.<br></li></ol><p><strong>Mungkinkah
+ kita menentukan siapa saja yang turut serta dalam perampokan 
+menggunakan informasi di atas saja? Jika ya, siapa saja yang terlibat 
+dalam perampokan tersebut? 
+</strong><br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text>Vijay</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Heather</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>Kevin</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Randy</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Abby</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text>Not enough information (informasi tidak cukup)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633709  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3.10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Can we make a system whose specifications are described using the following formulas:<strong><br></strong></p><p><strong></strong></p><p><strong><span style="font-weight: normal;">\( A1 : = p \vee q\)</span></strong></p><p><strong><span style="font-weight: normal;">\( A2 : = \sim p \)<br></span></strong></p><p><strong><span style="font-weight: normal;">\( A3 : = p \rightarrow q  \)<br></span></strong></p><p><strong><span style="font-weight: normal;">\( A4 : = \sim q \)</span><br></strong></p><strong><br></strong><p></p><p><strong>ID: </strong>Apakah sistem dengan spesifikasi&nbsp;berikut dapat dibuat atau tidak:</p><p>\( A1 : = p \vee q\)</p><p>\( A2 : = \sim p \)<br></p><p>\( A3 : = p \rightarrow q  \)<br></p><p>\( A4 : = \sim q \)<br></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>we can make such a system (sistem dapat dibuat)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>we cannot make such a system (sistem tidak dapat dibuat)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">not enough information (informasi tidak cukup)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633710  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3.4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>Observe the following sentence:</p><p>"If I am smart, then my father will give me a present. I am indeed smart."</p><p>What is the correct conclusion?<br></p><p><strong>ID: </strong>Perhatikan kalimat berikut.</p><h5>"Jika saya pandai, maka ayah akan memberikan hadiah. Ternyata pada kenyatannya saya pandai."</h5><p>Kesimpulan yang benar adalah:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text>My father will give me a present. (Ayah akan memberikan hadiah.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>My father will not give me a present (Ayah tidak akan memberikan hadiah.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>My father is also smart. (Ayah juga pandai.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I'll give a present to my father because I'm smart. (Saya memberikan hadiah ke Ayah karena saya pandai.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I may not get a present. (Saya belum tentu dapat hadiah.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633711  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3.5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5><strong>EN:</strong> "If I am hungry, then I'm going to eat. Apparently I'm not eating".<strong><br></strong></h5><p>What is the correct conclusion?<br></p><h5><strong>ID: </strong>"Jika saya lapar maka saya makan. Ternyata saya tidak makan."</h5><p>Kesimpulan yang benar adalah</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>I was not hungry. (Saya tidak lapar.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I won't eat. (Saya tidak akan makan.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I will be still hungry. (Saya akan tetap lapar.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I'm still going to eat. (Saya tetap mau makan.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I didn't eat. (Saya tidak makan.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633712  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3.6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5><strong>EN:</strong> Suppose we have two following facts:</h5><ol><li>"If I am hungry, then I will eat."</li><li>"If I eat, then my money runs out".</li></ol><p>What can be concluded from the above facts?</p><p><strong>ID: </strong>Misalkan kita memiliki dua fakta berikut:</p><ol><li>"Jika saya lapar, maka saya makan".</li><li>"Jka saya makan, maka uang jajan saya habis".<br></li></ol>Apa yang dapat disimpulkan dari fakta di atas?<br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>If I'm hungry, then my money will run out. (Jika saya lapar maka uang jajan saya habis.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I don't eat and my money runs out. (Saya tidak makan dan uang saya habis.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If I'm hungry then my money won't run out. (Jika saya lapar maka uang jajan saya tidak habis.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If I don't eat, then my money won't run out. (Jika saya tidak makan maka uang saya tidak habis.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I don't eat and I'm not hungry. (Saya tidak makan dan saya tidak lapar.)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633713  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3.7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5><strong>EN: </strong>What can be inferred from the fact: "<strong>I am hungry</strong>".</h5><p><strong>ID:</strong> Apa yang dapat disimpulkan dari fakta: "<strong>Saya lapar</strong>".<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>I'm hungry or thirsty. (Saya lapar atau saya haus.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I'm hungry and thirsty. (Saya lapar dan saya haus.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If I'm hungry then I'll eat. (Jika saya lapar maka saya makan.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>I'll buy some food. (Saya akan beli makanan.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>If I don't eat, then I'm hungry. (Jika saya tidak makan maka saya lapar.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633714  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3.8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5><strong>EN:</strong> What can be concluded from the fact: "<strong>I am a programmer and a designer</strong>".</h5><p><strong>ID:</strong> Apa yang dapat disimpulkan dari fakta: "<strong>saya seorang programmer dan desainer</strong>" <br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>I'm a programmer (Saya programmer.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>I'm not a designer (Saya bukan desainer.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text>I'm neither a programmer nor a designer. (Saya bukan programmer dan bukan pula desainer.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>I'm either a programmer or a designer but not both. (Saya programmer atau saya desainer tapi tidak keduanya.)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>If I'm not a programmer, then I'm a designer. (Jika saya bukan programmer maka saya desainer.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>I'm a designer. (Saya desainer.)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633715  -->
+  <question type="multichoice">
+    <name>
+      <text>Logika Proposisi 3.9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5><strong>EN:</strong> What can be concluded from two following facts:</h5><p></p><h5></h5><p>"If the parliament refused to approve the new bill, then the demonstration will end and the president will resign."<br>"The parliament refused to approve the new bill."</p><p><strong>ID:</strong> Apa yang dapat disimpulkan dari dua fakta berikut:</p><p>"Jika DPR menolak mengesahkan UU baru, maka demonstrasi akan berakhir dan presiden akan mengundurkan diri."<br>"DPR menolak&nbsp;mengesahkan UU baru."</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>The president will resign. (Presiden akan mengundurkan diri.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The president will not resign. (Presiden tidak akan mengundurkan diri.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The parliament chooses the former bill. (DPR memilih UU lama.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The demonstration will not end. (Demonstasi tidak akan berakhir.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>The demonstration will end but the president will not resign. (Demonstrasi akan berakhir tetapi presiden tidak mengundurkan diri.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633716  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 1: Negasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> What is the negation of the sentence: "all students of class A wear glasses"?</p><p><strong>ID:</strong> Apakah negasi dari pernyataan: "semua siswa di kelas A memakai kacamata"?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>There is a student in class A who wears glasses. (Ada siswa di kelas A yang memakai kacamata.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>There is a student in class A who does not&nbsp; wear glasses. (Ada siswa di kelas A yang tidak memakai kacamata.)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>All students in class A do not wear glasses. (Semua siswa di kelas A tidak memakai kacamata.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[All students who wear glasses are not in class A. (Semua siswa yang memakai kacamata tidak berada di kelas A.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>No students in class A who wear glasses. (Tidak ada siswa di kelas A yang memakai kacamata.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>No students in class A who do not wear glasses. (Tidak ada siswa di kelas A yang tidak memakai kacamata.)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633717  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 1: Negasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> What is the negation of the statement: "if it rains tomorrow, then I will stay at home".</p><p><strong>ID:</strong> Apakah negasi dari pernyataan: "jika besok hujan, maka saya akan tinggal di rumah".<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[Your answer is incorrect. Remember that the negation of \( p \rightarrow q  \) is a statement that precisely true whenever \( p \rightarrow q \) is false.<br>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[It rains tomorrow and I will not stay at home. (Besok hujan dan saya tidak tinggal di rumah.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[It rains tomorrow and I will stay at home. (Besok hujan dan saya tinggal di rumah.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It does not rain tomorrow and I will stay at home. (Besok tidak hujan dan saya akan tinggal di rumah.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It does not rain tomorrow and I will not stay at home. (Besok tidak hujan dan saya tidak akan tinggal di rumah.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[If it does not rain tomorrow, then I will not stay at home. (Jika besok tidak hujan, maka saya tidak akan tinggal di rumah.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[If it rains tomorrow, then I will not stay at home. (Jika besok hujan, maka saya tidak akan tinggal di rumah).<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[If it does not rain tomorrow, then I will stay at home. (Jika besok tidak hujan, maka saya akan tinggal di rumah.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633718  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 1: Negasi dari Disjungsi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN:</strong> What is the negation of the statement: "my uncle is a painter or a musician"?</p><p dir="ltr" style="text-align: left;"><strong>ID:</strong> Apakah negasi dari pernyataan: "pamanku adalah pelukis atau musisi"? <br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[Your answer is incorrect. Remember that the negation of \( p \vee q \) is the statement that is true precisely when \( p \vee q \) is false.<br>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[My uncle is neither a painter nor a musician. (Pamanku bukanlah pelukis dan bukan pula seorang musisi.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[My uncle is a painter, but he is not a musician. (Pamanku pelukis, namun dia bukan seorang musisi.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[My uncle is not a painter but he is a musician. (Pamanku bukan pelukis, namun dia seorang musisi.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[My uncle is a painter and a musician. (Pamanku adalah seorang pelukis dan musisi.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[My uncle is a painter or a musician, but not both. (Pamanku adalah pelukis atau musisi, namun tidak keduanya.)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633719  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 1: Negasi dari Konjungsi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN:</strong> What is the negation of the statement: "our president is smart and good looking"?</p><p dir="ltr" style="text-align: left;"><strong>ID:</strong> Apakah negasi dari pernyataan: "presiden kita pandai dan berpenampilan menarik"? <br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[Your answer is incorrect. Remember that the negation of \( p \wedge q \) is the statement that is true precisely when \( p \wedge q \) is false.<br>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text>Our president is smart but he is not good looking. (Presiden kita pandai namun tidak berpenampilan menarik.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Our president is not smart but he is good looking. (Presiden kita tidak pandai namun dia berpenampilan menarik.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Our president is neither smart nor good looking. (Presiden kita tidak pandai dan tidak berpenampilan menarik.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Our president is not smart or he is not good looking. (Presiden kita tidak pandai atau dia tidak berpenampilan menarik.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Our president is smart or good looking. (Presiden kita pandai atau berpenampilan menarik.)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633720  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 1: Preseden</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Put additional brackets in \( p \rightarrow \neg q \land r \) to clarify the precedence of its logical operators.</p><p><strong>ID:</strong> Berikan tanda kurung tambahan pada&nbsp; \( p \rightarrow \neg q \land r \) untuk memperjelas presedens dari operator logikanya.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(&nbsp; \left(  p \rightarrow&nbsp; \left( \neg&nbsp; q \right) \right) \land r \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( p \rightarrow \left( \left( \neg q \right) \land r \right) \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( p \rightarrow \left( \neg \left( q \land r \right) \right) \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633721  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 1: Preseden</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p id="yui_3_17_2_1_1599401445417_3861"><strong>EN:</strong> Put additional brackets in \( p \wedge q \rightarrow r \vee s \) to clarify the precedence of its logical operators.</p><p id="yui_3_17_2_1_1599401445417_3872"><strong>ID:</strong> Berikan tanda kurung tambahan pada&nbsp;&nbsp;\( p \wedge q \rightarrow r \vee s \)<span id="MathJax-Element-2-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>p</mi><mo stretchy=&quot;false&quot;>&amp;#x2192;</mo><mi mathvariant=&quot;normal&quot;>&amp;#x00AC;</mi><mi>q</mi><mo>&amp;#x2227;</mo><mi>r</mi></math>" role="presentation"><nobr aria-hidden="true" id="yui_3_17_2_1_1599401445417_3871"><span id="MathJax-Span-9"><span id="MathJax-Span-10"><span id="MathJax-Span-16"> </span></span></span></nobr></span>untuk memperjelas presedens dari operator logikanya.</p><p></p><p id="yui_3_17_2_1_1599401445417_3811"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text>\( (p \wedge q) \rightarrow (r \vee s) \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\( p \wedge (q \rightarrow (r \vee s)) \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\( ((p \wedge q) \rightarrow r) \vee s \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\( p \wedge ((q \rightarrow r) \vee s) \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\( (p \wedge (q \rightarrow r)) \vee s \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633722  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 1: Preseden</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Put additional brackets in \( \neg p \vee q \rightarrow r \) to clarify the precedence of its logical operators.</p><p><strong>ID:</strong> Berikan tanda kurung pada \( \neg p \vee q \rightarrow r \) untuk memperjelas presedens dari operator logikanya.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( \left( \left( \neg p \right) \lor q \right) \rightarrow r \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \left( \neg \left( p \lor q \right) \right) \rightarrow r \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \left( \neg \right) p \lor \left( q \rightarrow r \right) \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \neg \left( p \lor \left( q \rightarrow r \right) \right) \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633723  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 2: Sifat</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>Formula B of the form &nbsp;\( p \lor q \rightarrow \neg p  \) has the following properties:<strong><br></strong></p><p><strong></strong><strong>ID:</strong> Formula B yang berupa&nbsp;\( p \lor q \rightarrow \neg p  \)&nbsp;bersifat:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>valid (absah)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>contradiction (kontradiksi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>satisfiable (terpenuhi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>contingency</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633724  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 2: Sifat</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Formula B of the form \( p \lor q \rightarrow \neg p \lor q \) has the following properties:<strong><br></strong></p><p><strong></strong><strong>ID:</strong> Formula B yang berupa&nbsp;\( p \lor q \rightarrow \neg p \lor q \)&nbsp;bersifat:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>valid (absah)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>contradiction (kontradiksi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>satisfiable (terpenuhi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>contingency</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633725  -->
+  <question type="multichoice">
+    <name>
+      <text>Proposisi 2: Sifat</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Formula B of the form \( p \lor q \rightarrow \neg p \oplus q \) has the following properties:<br></p><p><strong></strong><strong>ID:</strong> Formula B yang berupa&nbsp;\( p \lor q \rightarrow \neg p \oplus q \)&nbsp;bersifat:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>valid (absah)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>contradiction (kontradiksi)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>satisfiable (terpenuhi)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>contingency</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633726  -->
+  <question type="multichoice">
+    <name>
+      <text>Semantics of Propositional Formulas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN: </strong>Suppose we consider the formula \( \neg (p \wedge q) \rightarrow p \oplus q \). Determine the properties of this formula according to its semantics (its truth value).</p><p dir="ltr" style="text-align: left;"><strong>ID:</strong> Misalkan kita meninjau formula&nbsp; \( \neg (p \wedge q) \rightarrow p \oplus q \). Tentukan sifat-sifat dari formula ini berdasarkan semantiknya (nilai kebenarannya).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[satisfiable (terpenuhi)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[valid (absah)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">contradiction (kontradiksi)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">contingency<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633727  -->
+  <question type="multichoice">
+    <name>
+      <text>Semantics of Propositional Formulas (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN: </strong>Suppose we consider the formula \( p \oplus q  \rightarrow \neg (p \wedge q)  \). Determine the properties of this formula according to its semantics (its truth value).</p><p dir="ltr" style="text-align: left;"><strong>ID:</strong> Misalkan kita meninjau formula&nbsp; \( p \oplus q  \rightarrow \neg (p \wedge q)  \). Tentukan sifat-sifat dari formula ini berdasarkan semantiknya (nilai kebenarannya).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[satisfiable (terpenuhi)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[valid (absah)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">contradiction (kontradiksi)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">contingency<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633728  -->
+  <question type="multichoice">
+    <name>
+      <text>Semantics of Propositional Formulas (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><strong>EN: </strong>Suppose we consider the formula \( (p \oplus q) \wedge q  \rightarrow \neg p \). Determine the properties of this formula according to its semantics (its truth value).</p><p dir="ltr" style="text-align: left;"><strong>ID:</strong> Misalkan kita meninjau formula&nbsp; \( (p \oplus q) \wedge q  \rightarrow \neg p \). Tentukan sifat-sifat dari formula ini berdasarkan semantiknya (nilai kebenarannya).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[satisfiable (terpenuhi)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[valid (absah)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">contradiction (kontradiksi)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">contingency<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633729  -->
+  <question type="numerical">
+    <name>
+      <text>Logika Proposisi 1.9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> How many different subformulas of \(  ( \sim p \wedge q) \rightarrow (p \wedge (q \vee \sim r))  \) are there?<br></p><p><strong>ID:</strong> Ada berapa banyak semua subformula dari&nbsp;\(  ( \sim p \wedge q) \rightarrow (p \wedge (q \vee \sim r))  \)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>9</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633730  -->
+  <question type="numerical">
+    <name>
+      <text>Logika Proposisi 2.10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Suppose we have the following Python function:</p><pre>def fun(x):<br>	if x &gt;= 2 or 8 - x == 4:<br>		x = x*x + 1<br>	else:<br>		x = x<br>	return x<br></pre><p>What is the value of fun(1) + fun(2) + fun(3) + fun(4) ?</p><p><strong>ID:</strong><strong> </strong>Misalkan kita memiliki fungsi Python berikut:</p><pre><pre>def fun(x):<br>	if x &gt;= 2 or 8 - x == 4:<br>		x = x*x + 1<br>	else:<br>		x = x<br>	return x</pre></pre><p>Berapakah nilai dari fun(1) + fun(2) + fun(3) + fun(4) ?</p><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>33</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633731  -->
+  <question type="numerical">
+    <name>
+      <text>Logika Proposisi 2.4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><span tabindex="0" lang="id"><strong>EN: </strong>Suppose we have the following Python program</span></p><pre><span tabindex="0" lang="id">x = 1<br>if (1 + 1 == 3) or (2 + 2 == 3):<br>  x = x + 1<br>else:<br>  x = x<br></span></pre><p><span tabindex="0" lang="id">What is the value of x at the end of the program?</span></p><p><span tabindex="0" lang="id"><strong>ID:</strong> Misalkan kita memiliki program Python berikut<br></span></p><p><span tabindex="0" lang="id"></span></p><pre><span tabindex="0" lang="id">x = 1<br>if (1 + 1 == 3) or (2 + 2 == 3):<br>  x = x + 1<br>else:<br>  x = x<br></span></pre><p><span tabindex="0" lang="id">Berapakah nilai x di akhir program?<br></span></p><p><span tabindex="0" lang="id"></span></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>1</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633732  -->
+  <question type="numerical">
+    <name>
+      <text>Logika Proposisi 2.5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><span tabindex="0" lang="id"></span></p><p></p><p><span tabindex="0" lang="id"><strong>EN: </strong>Suppose we have the following Python program</span></p><pre><span tabindex="0" lang="id">x = 1<br>if (2 + 3 == 5) and (3 + 4 == 7):<br>  x = x + 1<br>else:<br>  x = x<br></span></pre><p><span tabindex="0" lang="id">What is the value of x at the end of the program?</span></p><p><span tabindex="0" lang="id"><strong>ID:</strong> Misalkan kita memiliki program Python berikut<br></span></p><p><span tabindex="0" lang="id"></span></p><pre><span tabindex="0" lang="id"></span></pre><span tabindex="0" lang="id"><pre><span tabindex="0" lang="id">x = 1<br>if (2 + 3 == 5) and (3 + 4 == 7):<br>  x = x + 1<br>else:<br>  x = x</span></pre></span><p><span tabindex="0" lang="id">Berapakah nilai x di akhir program?<br></span></p><p><span tabindex="0" lang="id"></span></p><p></p><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633733  -->
+  <question type="numerical">
+    <name>
+      <text>Logika Prosisi 2: tabel kebenaran</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> How many rows in the truth table to check the truth of a formula with three different atomic propositions?</p><p><strong>ID:</strong> Berapa banyaknya baris pada tabel kebenaran dari sebuah formula dengan tiga proposisi atom berbeda?<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>8</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633734  -->
+  <question type="numerical">
+    <name>
+      <text>Logika Prosisi 2: tabel kebenaran (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> How many rows in the truth table to check the truth of a formula with four different atomic propositions?</p><p><strong>ID:</strong> Berapa banyaknya baris pada tabel kebenaran dari sebuah formula dengan empat proposisi atom berbeda?<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>16</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633735  -->
+  <question type="numerical">
+    <name>
+      <text>Logika Prosisi 2: tabel kebenaran (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> How many rows in the truth table to check the truth of a formula with five different atomic propositions?</p><p><strong>ID:</strong> Berapa banyaknya baris pada tabel kebenaran dari sebuah formula dengan lima proposisi atom berbeda?<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>32</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633736  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika proposisi 1: Definisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> 2<sup>3</sup> &lt; 3<sup>2</sup>&nbsp; is&nbsp; a proposition.&nbsp;</p><p><strong>ID:</strong> 2<sup>3</sup> &lt; 3<sup>2</sup>&nbsp;merupakan suatu proposisi.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633737  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika proposisi 1: Definisi (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> 3<sup>4</sup> -4<sup>3</sup> &lt; 10&nbsp; is a proposition.&nbsp;</p><p><strong>ID:</strong> 3<sup>4</sup> -4<sup>3</sup> &lt; 10&nbsp; merupakan suatu proposisi.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633738  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika proposisi 1: Definisi (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>x + 3&nbsp;\(  \geq  \) 2018 merupakan suatu proposisi.<strong><br></strong></p><p><strong>ID:</strong> x + 3&nbsp;\(  \geq  \) 2018 merupakan suatu proposisi.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633739  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika proposisi 1: Definisi (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> \( x+2x-3x =0 \) is a proposition.<strong><br></strong></p><p><strong>IN:</strong> \( x+2x-3x =0 \) merupakan suatu proposisi.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633740  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika proposisi 1: Definisi 5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> "Please learn Mathematical Logic&nbsp; materials well!" is a proposition.<br></p><p><strong>ID: </strong>“Pelajari materi kuliah Logika Matematika dengan baik!” merupakan suatu proposisi.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633741  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika proposisi 1: Negasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> The negation of "<span lang="en"><span title="">Alex has never failed to show up on time</span></span>" is "Alex has never come on time". <br></p><p><strong>ID:</strong> Negasi dari “Alex tidak pernah tidak datang tepat waktu” adalah “Alex tidak pernah datang tepat waktu.” 
+</p><br><br><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633742  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 2.8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong><strong>:</strong><strong> </strong>Formula&nbsp;\( (p \rightarrow q) \wedge (p \rightarrow r) \) and \( p \rightarrow (q \wedge r)  \) are equivalent.</p><p><strong>ID:</strong> Formula&nbsp;\( (p \rightarrow q) \wedge (p \rightarrow r) \) dan&nbsp;\( p \rightarrow (q \wedge r)  \) adalah formula yang ekivalen.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633743  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 2.9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong><strong> </strong>Formula&nbsp;\( (p \rightarrow q) \wedge (p \rightarrow r) \) and \( p 
+\rightarrow (q \wedge r)  \) are not equivalent.</p><p><strong>ID:</strong> Formula&nbsp;\( (p \rightarrow q) \wedge (p \rightarrow r) \) dan&nbsp;\( p \rightarrow (q \wedge r)  \) adalah formula yang tidak ekuivalen.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633744  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3: Inferensi Logika Proposisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> The premises \(p \vee q \rightarrow r \wedge s\), \(s \vee t \rightarrow u \), and \(p\) lead to the conclusion \(u\).<br></p><p><strong>ID: </strong>Premis-premis \(p \vee q \rightarrow r \wedge s\), \(s \vee t \rightarrow u \), dan \(p\) memberikan kesimpulan \(u\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633745  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3: Inferensi Logika Proposisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Suppose we have the following statements:</p><ol><li>it is not sunny today and it is colder than yesterday,;<br></li><li>if we will go swimming, then it must be sunny today; <br></li><li>if we do not go swimming, then we will go hiking;</li><li>if we go hiking, then we will be home by sunset.<br></li></ol>The premises lead to the conclusion: we will be home by sunset.<br><p><strong><br></strong></p><p><strong>ID:</strong> Diberikan pernyataan-pernyataan berikut: <br></p><ol><li>hari ini tidak cerah dan lebih dingin dari kemarin;</li><li>&nbsp;jika kita pergi berenang maka hari sedang cerah;</li><li>jika kita tidak pergi berenang, maka kita akan pergi ke gunung;</li><li>jika kita pergi ke gunung, maka kita akan tiba di rumah pada malam hari.</li></ol><p>Pernyataan-pernyataan di atas memberikan kesimpulan: kita akan tiba di rumah pada malam hari.<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633746  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3: Inferensi Logika Proposisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong><br></p><p>Suppose we have the statements: <br></p><ol><li>If Alice sends an assignment email to Bob, then Bob will finish his homework;</li><li>if Alice doesn't send an assignment email to Bob, then he will play computer until midnight;</li><li>if Bob plays computer until midnight, then he will be sleepy in Mathematical Logic class.<br></li></ol><p>The above statements lead to: if Bob doesn't finish his homework, then he will be sleepy in Mathematical Logic class.</p><p><strong>ID:</strong></p><p>Misalkan kita memiliki pernyataan berikut:</p><ol><li>jika Alice mengirim email tugas pada Bob, maka Bob akan menyelesaikan PR-nya;</li><li>jika Alice tidak mengirim email tugas pada Bob, maka Bob akan bermain komputer hingga tengah malam;</li><li>jika Bob bermain komputer hingga tengah malam, maka dia akan mengantuk di kelas Logika Matematika.</li></ol><p>Pernyataan-pernyataan di atas berujung pada kesimpulan: jika Bob tidak menyelesaikan PR-nya, maka di akan mengantuk di kelas Logika Matematika.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633747  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3: Inferensi Logika Proposisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: <br></strong></p><p>Suppose we have the statements: <br></p><ol><li>if today is raining and strong wind occurs, then there will be flood;<br></li><li>if there will be flood, then the people will suffer;</li><li>today strong wind occurs, but the people do not suffer.</li></ol><p>These statements lead to the conclusion: <strong>today is raining</strong>.</p><p><strong>ID:</strong></p><p>Misalkan kita memiliki pernyataan berikut:</p><ol><li>jika hari ini hujan dan terjadi angin kencang, maka timbul banjir, <br></li><li>jika timbul banjir, maka rakyat menderita,</li><li>hari ini terjadi angin 
+kencang, tetapi rakyat tidak menderita. 
+</li></ol><p>Pernyataan-pernyataan di atas memberikan kesimpulan bahwa <strong>hari ini hujan</strong>.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633748  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3: Inferensi Logika Proposisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Suppose we have the statements:</p><ol><li>if today is snowing, then Alex will ski; <br></li><li>if today is not snowing, then Bryan will play hockey.<br></li></ol><p>These statements lead to the conclusion: Alex will ski or Bryan will play hockey.<strong><br></strong></p><p><strong>ID:</strong> Misalkan kita memiliki pernyataan-pernyataan:</p><ol><li><strong></strong>jika hari ini turun salju, maka Alex bermain ski;</li><li>jika hari ini tidak turun salju, maka Bryan bermain hoki;</li></ol><p>Pernyataan-pernyataan di atas memberikan kesimpulan: Alex bermain ski atau Bryan bermain hoki.<br>
+<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633749  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3: Inferensi Logika Proposisi (copy)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> The premises \((p \wedge q ) \vee r\) and \(r \rightarrow s\) lead to the conlusion \(p \vee s\).</p><p><strong>ID:</strong> Premis \((p \wedge q ) \vee r\) dan \(r \rightarrow s\) memberikan kesimpulan \(p \vee s\).<br><br></p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633750  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3: Inferensi Logika Proposisi (copy)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> From the statements:</p><ol><li>If I study regularly, then I'll get 100 points in the exam;<br></li><li>I get 100 points in the exam.</li></ol><p>We can conclude that: I study regularly.<br></p><p><strong>ID: </strong>Dari pernyataan:</p><ol><li>jika saya belajar secara teratur, maka saya akan memperoleh nilai 100 pada ujian;</li><li>saya memperoleh nilai 100 pada ujian.</li></ol><p>Kita dapat menyimpulkan bahwa: saya rajin belajar.<br></p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633751  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3: Konsistensi Spesifikasi SIstem</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:&nbsp; </strong>A software engineer is inquired by his manager to develop an information system that complies the following specifications:</p><ol><li>whenever the system software is being upgraded, the user cannot access file system;</li><li>if the user can access the file system, then the user can save a new file;</li><li>If the user cannot save a new file, then the system software is not being upgraded.<br></li></ol><p>The above system specifications are consistent.<br></p><p><strong>ID:</strong> Seorang <em>software engineer</em> diminta oleh manajernya untuk membuat suatu sistem informasi dengan spesifikasi berikut:</p><ol><li>ketika system software di-upgrade, user tidak dapat mengakses file system;</li><li>jika user dapat mengakses file system, maka user dapat menyimpan file baru;</li><li>jika user tidak dapat menyimpan file baru, maka system software tidak sedang di-upgrade.&nbsp;</li></ol><p><span style="font-size: 0.9375rem;">Spesifikasi sistem di atas konsisten.<br></span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633752  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3.2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Observe the following compound proposition.</p><p><strong></strong></p><h5>"<strong>If that dear was alerted and moved quicker, then the crocodile would not be able to catch it.</strong>"</h5><p>If we have the following atomic proposition:</p><p>p: that dear was alerted; q: that dear moved quicker, r: the crocodile would not be able to catch the dear</p><p>determine the truth values of the above sentence if we have: \( \mathcal{I}(p)= \mathrm{T} \), \(\mathcal{I}(q)= \mathrm{F},\) and \(\mathcal{I}(r)= \mathrm{F}\).<br></p><p></p><p><strong>ID:</strong> Perhatikan Proposisi Majemuk berikut.</p><h5>"<strong>Jika rusa itu waspada dan bergerak lebih cepat, maka buaya itu tidak akan mampu menangkapnya</strong>."</h5><p>Jika proposisi atom yang membentuknya adalah:</p><h5>p: rusa itu waspada; q: rusa itu bergerak lebih cepat; r: buaya itu tidak akan mampu menangkap rusa<br></h5><p>tentukan nilai kebenaran dari kalimat di atas apabila kita memiliki \( \mathcal{I}(p)= \mathrm{T} \), \(\mathcal{I}(q)= \mathrm{F}\), dan \(\mathcal{I}(r)= \mathrm{F}\).<em></em></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633753  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Proposisi 3.3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Observe the following compound proposition.</p><p><strong></strong></p><h5>"<strong>If that dear was alerted and moved quicker, then the crocodile would not be able to catch it.</strong>"</h5><p>If we have the following atomic proposition:</p><p>p: that dear was alerted; q: that dear moved quicker, r: the crocodile would not be able to catch the dear</p><p>determine
+ the truth values of the above sentence if we have: \( \mathcal{I}(p)= 
+\mathrm{F} \), \(\mathcal{I}(q)= \mathrm{F},\) and \(\mathcal{I}(r)= 
+\mathrm{F}\).<br></p><p></p><p><strong>ID:</strong> Perhatikan Proposisi Majemuk berikut.</p><h5>"<strong>Jika rusa itu waspada dan bergerak lebih cepat, maka buaya itu tidak akan mampu menangkapnya</strong>."</h5><p>Jika proposisi atom yang membentuknya adalah:</p><h5>p: rusa itu waspada; q: rusa itu bergerak lebih cepat; r: buaya itu tidak akan mampu menangkap rusa<br></h5><p>tentukan
+ nilai kebenaran dari kalimat di atas apabila kita memiliki \( 
+\mathcal{I}(p)= \mathrm{F} \), \(\mathcal{I}(q)= \mathrm{F}\), dan 
+\(\mathcal{I}(r)= \mathrm{F}\).<em></em></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633754  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Prosisi 2: Ekuivalen</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p id="yui_3_17_2_1_1600105692619_5156"><strong id="yui_3_17_2_1_1600105692619_5322">EN: </strong>~(p V(~p&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math» q)) and ~p&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math»&nbsp;~q are equivalent formulas.&nbsp;</p><p id="yui_3_17_2_1_1600105692619_6122"><strong id="yui_3_17_2_1_1600105692619_5221">ID:</strong> ~(p V(~p&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math» q)) dan ~p&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math»&nbsp;~q adalah formula yang ekuivalen.&nbsp;<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633755  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Prosisi 2: Konsekuensi logis</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p id="yui_3_17_2_1_1549091452128_1440"><strong id="yui_3_17_2_1_1600105793605_5248">EN:</strong> q is a logical consequence of ((p \(  \rightarrow  \)q)&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math» p).<br id="yui_3_17_2_1_1600105793605_5158"></p><p id="yui_3_17_2_1_1600105793605_5074"><strong id="yui_3_17_2_1_1600105793605_5135">ID:</strong>&nbsp; q konsekuensi logis dari ((p \(  \rightarrow  \)q)&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math» p). 
+<br><br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633756  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Prosisi 2: Sifat</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p id="yui_3_17_2_1_1600105876599_5249"><strong id="yui_3_17_2_1_1600105876599_5721">EN: </strong>(~p&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8744;«/mo»«/math»&nbsp;~q) \(  \rightarrow  \) ~(p&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math» q) is a valid formula.</p><p id="yui_3_17_2_1_1600105876599_5675"><strong id="yui_3_17_2_1_1600105876599_5804">ID:</strong> (~p&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8744;«/mo»«/math»&nbsp;~q) \(  \rightarrow  \) ~(p&nbsp;«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mo»§#8743;«/mo»«/math» q) adalah formula yang absah. 
+<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633757  -->
+  <question type="truefalse">
+    <name>
+      <text>Logika Prosisi 2: Sifat</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> (p&nbsp;\(  \rightarrow  \) q)&nbsp;\(  \leftrightarrow  \) (~p V q)&nbsp; is a contradictory formula.</p><p><strong>ID:</strong> (p&nbsp;\(  \rightarrow  \) q)&nbsp;\(  \leftrightarrow  \) (~p V q)&nbsp; adalah formula yang bersifat kontradiksi. 
+<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633758  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 1: Truth Value</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> If p is True and q is False, what is the truth value of \( p \rightarrow \neg q \)?<br></p><p><strong>ID:</strong> Jika p bernilai True dan q bernilai False, tentukan nilai kebenaran dari \( p \rightarrow \neg q \)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633759  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 1: Truth Value</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: if p is True and q is False, determine the truth value of \( p \rightarrow q \).<br></p><p><strong>ID:</strong> jika p bernilai True dan q bernilai False, tentukan nilai kebenaran dari \( p \rightarrow q \).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633760  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 1: Truth Value</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> if p is False and q is True, determine the truth value of \( p \rightarrow \neg q \).<br></p><p><strong>ID:</strong> jika p bernilai False dan q bernilai True, tentukan nilai kebenaran dari \( p \rightarrow \neg q \).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633761  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 2: Interpretasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>If I(p) is False, I(q) is True, and I(r) is True, determine:</p><p>\( I \left( p \rightarrow \neg q \land r \right) \)</p><p><strong><br></strong></p><p><strong>ID: </strong>Jika I(p) bernilai False, I(q) bernilai True, dan I(r) bernilai True, tentukan:</p><p>\( I \left( p \rightarrow \neg q \land r \right) \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633762  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 2: Interpretasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> If I(p) is True, I(q) is True, and I(r) is True, determine:</p><p>\( I \left( p \rightarrow \neg q \land r \right) \)<br></p><p><br></p><p><strong>ID:</strong> Jika I(p) bernilai True, I(q) bernilai True, dan I(r) bernilai True, tentukan:</p><p>\( I \left( p \rightarrow \neg q \land r \right) \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633763  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 2: Interpretasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> If I(p) is True, I(q) is False, and I(r) is False, determine :</p><p>\( I \left( p \rightarrow \neg q \leftrightarrow r \right) \)</p><p></p><p><strong>ID: </strong>Jika I(p) bernilai True, I(q) bernilai False, dan I(r) bernilai False, tentukan:</p><p>\( I \left( p \rightarrow \neg q \leftrightarrow r \right) \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633764  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 2: Interpretasi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> If I(p) is True, I(q) is False, and I(r) is True, determine:</p><p>\( I \left( p \rightarrow \neg q \leftrightarrow r \right) \)<br></p><p><strong>ID:</strong> Jika I(p) bernilai True, I(q) bernilai False dan I(r) bernilai True, tentukan:</p><p>\( I \left( p \rightarrow \neg q \leftrightarrow r \right) \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633765  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: inferensi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> given the statements:</p><ul><li>if I study diligently, then I'll get an A in Mathematical Logic class;</li><li>I don't study diligently.</li></ul><p>From the above statements, we can conclude "I won't get an A in Mathematical Logic class".</p><p><strong><br></strong></p><p><strong>ID:</strong> diberikan pernyataan:</p><p></p><ul><li>jika saya rajin belajar, maka saya akan memperoleh nilai A di kelas Logika Matematika;</li><li>saya tidak rajin belajar.<br></li></ul><p></p>Dari pernyataan di atas, kita dapat menyimpulkan "saya tidak akan memperoleh nilai A di kelas Logika Matematika".<br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633766  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: inferensi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> given the statements:</p><ul><li>if I study diligently, then I don' have enough sleep but my GPA is &gt;=3.00;<br></li><li>I have enough sleep.</li></ul><p>From the above statements, we can conclude that "I don't study diligently".<br></p><p><strong>ID:</strong> diberikan pernyataan:</p><p></p><ul><li>jika saya rajin belajar, maka saya tidak cukup tidur namun IPK saya &gt;= 3.00;</li><li>saya cukup tidur.</li></ul><p>Dari pernyataan di atas, kita dapat menyimpulkan "saya tidak rajin belajar".<br></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633767  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: inferensi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> given the statements:</p><ul><li>Alice likes ice cream, pizza, or donuts;<br></li><li>Alice doesn't like pizza or she doesn't like donuts.<br></li></ul><p>From the above statements, we can conclude that "Alice likes ice cream".<br></p><p><strong>ID:</strong> diberikan pernyataan:</p><p></p><ul><li>Alice menyukai es krim, pizza, atau donat;</li><li>Alice tidak menyukai pizza atau dia tidak menyukai donat.</li></ul><p>Dari pernyataan di atas, kita dapat menyimpulkan "Alice menyukai es krim".<br></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633768  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: inferensi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN: </strong>suppose we have the following statements:</p><ul><li>if the government is incompetent and evil, then poverty and riots are prevalent;</li><li>if riots are prevalent, then the crime rate escalates;</li><li>the crime rate does not escalate.</li></ul><p>From the above statements, we can conclude: "the government is either competent or not evil".</p><p><strong>ID:</strong> misalkan kita memiliki pernyataan berikut:</p><ul><li>jika pemerintah tidak kompeten dan zalim, maka kemiskinan dan kerusuhan merajalela;</li><li>jika kerusuhan merajalela, maka tingkat kriminalitas meningkat;</li><li>tingkat kriminalitas tidak meningkat.</li></ul><p>Dari pernyataan d atas, kita dapat menyimpulkan: "pemerintah kompeten atau tidak zalim".<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633769  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: inferensi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Suppose we have the following statements:</p><ul><li>Maria was either drowsy or drunk (or both);</li><li>if Maria was drowsy, then her heartbeat was low;</li><li>if Maria was drunk, then her breath contained alcohol;</li><li>if Maria was drowsy, then her driving license will be revoked temporarily;</li><li>if Maria was drunk, then her driving license will be revoked permanently;</li><li>Maria's breath did not contain alcohol</li></ul><p>From these statements, we can conclude <strong>Maria's heartbeat was low</strong>.</p><p><strong>ID:</strong><strong> </strong>Misalkan kita memiliki pernyataan-pernyataan berikut:</p><ul><li>Maria mengantuk atau mabuk (atau keduanya);</li><li>jika Maria mengantuk, maka detak jantungnya rendah;</li><li>jika Maria mabuk, maka napasnya mengandung alkohol;</li><li>jika Maria mengantuk, maka SIM-nya akan dicabut sementara;</li><li>jika Maria mabuk, maka SIM-nya akan dicabut permanen;</li><li>Napas Maria tidak mengandung alkohol.</li></ul><p>Dari pernyataan-pernyataan di atas, kita dapat menyimpulkan <strong>detak jantung Maria rendah</strong>.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633770  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: inferensi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Suppose we have the following statements:</p><ul><li>if COVID 19 is harmless, then mutation has occurred, or the vaccine has been found, or people become more immune;</li><li>COVID 19 is harmless but the vaccine has not been found;</li><li>People do not become more immune.</li></ul><p>The statements lead to the conclusion: <strong>mutation has been occured</strong>.<br></p><p></p><p><strong>ID: </strong>Misalkan kita memiliki&nbsp; pernyataan berikut:</p><p></p><ul><li>jika COVID 19 tidak berbahaya, maka terjadi mutasi, atau vaksi telah ditemukan, atau orang-orang menjadi imun;</li><li>COVID 19 tidak berbahaya namun vaksin belum ditemukan;</li><li>orang-orang tidak menjadi imun.</li></ul><p>Dari pernyataan-pernyataan itu dapat disimpulkan bahwa: <strong>terjadi mutasi</strong>.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633771  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: inferensi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Suppose we have the following statements:</p><ul><li>Maria was either drowsy or drunk (or both);</li><li>if Maria was drowsy, then her heartbeat was low;</li><li>if Maria was drunk, then her breath contained alcohol;</li><li>if Maria was drowsy, then her driving license will be revoked temporarily;</li><li>if Maria was drunk, then her driving license will be revoked permanently;</li><li>Maria's breath did not contain alcohol</li></ul><p>From these statements, we can conclude <strong>Maria's </strong><strong>driving license will be revoked permanently</strong>.</p><p><strong>ID:</strong><strong> </strong>Misalkan kita memiliki pernyataan-pernyataan berikut:</p><ul><li>Maria mengantuk atau mabuk (atau keduanya);</li><li>jika Maria mengantuk, maka detak jantungnya rendah;</li><li>jika Maria mabuk, maka napasnya mengandung alkohol;</li><li>jika Maria mengantuk, maka SIM-nya akan dicabut sementara;</li><li>jika Maria mabuk, maka SIM-nya akan dicabut permanen;</li><li>Napas Maria tidak mengandung alkohol.</li></ul><p>Dari pernyataan-pernyataan di atas, kita dapat menyimpulkan <strong>SIM Maria akan dicabut permanen</strong>.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633772  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: inferensi (copy)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Suppose we have the following statements:</p><ul><li>James was sleeping or going out of town;</li><li>James was not going out of town or he was busy.</li></ul><p>From the above statements, we can conclude: "<strong>if James was not sleeping, then he was busy</strong>".</p><p><strong>ID: </strong>Misalkan kita memiliki pernyataan berikut:</p><ul><li>James tidur atau pergi ke luar kota;</li><li>James tidak pergi ke luar kota atau dia sedang sibuk.</li></ul><p>Dari dua pernyataan di atas, kita dapat menyimpulkan: "<strong>jika James tidak tidur, maka dia sedang sibuk</strong>".<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29633773  -->
+  <question type="truefalse">
+    <name>
+      <text>Proposisi 3: System Specification</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN:</strong> Suppose we have the following system specifications:</p><ul><li>S1: the notification message is stored in the buffer or it is retransmitted</li><li>S2: the notification message is not stored in the buffer</li><li>S3: if the notification message is stored in the buffer, then it is retransmitted</li></ul><p>The above system specification is consistent.</p><p><strong>ID: </strong>Misalkan kita memiliki spesifikasi sistem sebagai berikut:</p><ul><li>S1: pesan notifikasi disimpan dalam <em>buffer</em> atau dikirim ulang</li><li>S2: pesan notifikasi tidak disimpan dalam <em>buffer</em></li><li>S3: jika pesan notifikasi disimpan dalam <em>buffer</em>, maka pesan akan dikirim ulang</li></ul><p>Spesifikasi sistem di atas konsisten.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Logika proposisi 3</text>
+</tag>
+    </tags>
+  </question>
+
+</quiz>

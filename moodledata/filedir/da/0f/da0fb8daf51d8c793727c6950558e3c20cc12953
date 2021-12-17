@@ -1,0 +1,3239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Default for Logika Matematika</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>The default category for questions shared in context 'Logika Matematika'.</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Default for Logika Matematika/CLO 4</text>
+    </category>
+    <info format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Online Quiz for CLO 4<br></p>]]></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 29634016  -->
+  <question type="coderunner">
+    <name>
+      <text>sets operation: intersection</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose we consider \(A = \{1,3,9\}\) 
+and \(B = \{3,6,9,12,15,18\}\) in the universe \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), determine the set \(X\) where \(X = A \cap B\). Write your answer in Python 3 
+syntax for set.</p><p><strong>ID</strong>: Misalkan kita meninjau \(A = \{1,3,9\}\) 
+dan \(B = \{3,6,9,12,15,18\}\) pada himpunan semesta \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), tentukan himpunan \(X\) dengan \(X = A \cap B\). Tulis jawaban Anda dengan <em>syntax</em> himpunan pada Python 3.</p><p dir="ltr"><strong></strong></p><br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>python3</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>0</allornothing>
+    <penaltyregime>10, 20, ...</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>5</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload>X = {1,2,3,4,5,6,7,8,9,10} # fix this answer</answerpreload>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer>X = {3, 9}</answer>
+    <validateonsave>1</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs>1</cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>1</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <testcases>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text>print(X)</text>
+      </testcode>
+      <stdin>
+                <text>print(X)</text>
+      </stdin>
+      <expected>
+                <text>{9, 3}</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>HIDE</text>
+      </display>
+    </testcase>
+    </testcases>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634017  -->
+  <question type="coderunner">
+    <name>
+      <text>sets operation: minus (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose we consider \(A = \{1,3,9\}\) 
+and \(B = \{3,6,9,12,15,18\}\) in the universe \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), determine the set \(X\) where \(X = A \smallsetminus B\). Write your answer in Python 3 
+syntax for set.</p><p><strong>ID</strong>: Misalkan kita meninjau \(A = \{1,3,9\}\) 
+dan \(B = \{3,6,9,12,15,18\}\) pada himpunan semesta \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), tentukan himpunan \(X\) dengan \(X = A \smallsetminus B\). Tulis jawaban Anda dengan <em>syntax</em> himpunan pada Python 3.</p><p dir="ltr"><strong><br></strong></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>python3</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>0</allornothing>
+    <penaltyregime>10, 20, ...</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>5</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload>X = {1,2,3,4,5,6,7,8,9,10} # fix this answer</answerpreload>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer>X = {1}</answer>
+    <validateonsave>1</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs>1</cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>1</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <testcases>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text>print(X)</text>
+      </testcode>
+      <stdin>
+                <text>print(X)</text>
+      </stdin>
+      <expected>
+                <text>{1}</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>HIDE</text>
+      </display>
+    </testcase>
+    </testcases>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634018  -->
+  <question type="coderunner">
+    <name>
+      <text>sets operation: minus (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose we consider \(A = \{1,3,9\}\) 
+and \(B = \{3,6,9,12,15,18\}\) in the universe \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), determine the set \(X\) where \(X = B \smallsetminus A\). Write your answer in Python 3 
+syntax for set.</p><p><strong>ID</strong>: Misalkan kita meninjau \(A = \{1,3,9\}\) 
+dan \(B = \{3,6,9,12,15,18\}\) pada himpunan semesta \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), tentukan himpunan \(X\) dengan \(X = B \smallsetminus A\). Tulis jawaban Anda dengan <em>syntax</em> himpunan pada Python 3.</p><p dir="ltr"><strong><br></strong></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>python3</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>0</allornothing>
+    <penaltyregime>10, 20, ...</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>5</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload>X = {1,2,3,4,5,6,7,8,9,10} # fix this answer</answerpreload>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer>X = {6,12,15,18}</answer>
+    <validateonsave>1</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs>1</cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>1</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <testcases>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text>print(X)</text>
+      </testcode>
+      <stdin>
+                <text>print(X)</text>
+      </stdin>
+      <expected>
+                <text>{18, 12, 6, 15}</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>HIDE</text>
+      </display>
+    </testcase>
+    </testcases>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634019  -->
+  <question type="coderunner">
+    <name>
+      <text>sets operation: union</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose we consider \(A = \{1,3,9\}\) 
+and \(B = \{3,6,9,12,15,18\}\) in the universe \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), determine the set \(X\) where \(X = A \cup B\). Write your answer in Python 3 
+syntax for set.</p><p><strong>ID</strong>: Misalkan kita meninjau \(A = \{1,3,9\}\) 
+dan \(B = \{3,6,9,12,15,18\}\) pada himpunan semesta \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), tentukan himpunan \(X\) dengan \(X = A \cup B\). Tulis jawaban Anda dengan <em>syntax</em> himpunan pada Python 3.</p><p dir="ltr"><strong></strong></p><br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>python3</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>0</allornothing>
+    <penaltyregime>10, 20, ...</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>5</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload>X = {1,2,3,4,5,6,7,8,9,10} # fix this answer</answerpreload>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer>X = {1,3,6,9,12,15,18}</answer>
+    <validateonsave>1</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs>1</cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>1</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <testcases>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text>print(X)</text>
+      </testcode>
+      <stdin>
+                <text>print(X)</text>
+      </stdin>
+      <expected>
+                <text>{1, 3, 6, 9, 12, 15, 18}</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>HIDE</text>
+      </display>
+    </testcase>
+    </testcases>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634020  -->
+  <question type="coderunner">
+    <name>
+      <text>sets operation: xor</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose we consider \(A = \{1,3,9\}\) 
+and \(B = \{3,6,9,12,15,18\}\) in the universe \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), determine the set \(X\) where \(X = A \oplus B\). Write your answer in Python 3 
+syntax for set. Write the elements from the smallest one.<br></p><p><strong>ID</strong>: Misalkan kita meninjau \(A = \{1,3,9\}\) 
+dan \(B = \{3,6,9,12,15,18\}\) pada himpunan semesta \(U = \{x \in \mathbb{N}:
+ x \leq 20\}\), tentukan himpunan \(X\) dengan \(X = A \oplus B\). Tulis jawaban Anda dengan <em>syntax</em> himpunan pada Python 3. Tuliskan elemen-elemennya mulai dari yang terkecil.<br></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <coderunnertype>python3</coderunnertype>
+    <prototypetype>0</prototypetype>
+    <allornothing>0</allornothing>
+    <penaltyregime>10, 20, ...</penaltyregime>
+    <precheck>0</precheck>
+    <showsource>0</showsource>
+    <answerboxlines>5</answerboxlines>
+    <answerboxcolumns>100</answerboxcolumns>
+    <answerpreload>X = {1,2,3,4,5,6,7,8,9,10} # fix this answer</answerpreload>
+    <useace></useace>
+    <resultcolumns></resultcolumns>
+    <template></template>
+    <iscombinatortemplate></iscombinatortemplate>
+    <allowmultiplestdins></allowmultiplestdins>
+    <answer>X = {1,6,12,15,18}</answer>
+    <validateonsave>1</validateonsave>
+    <testsplitterre></testsplitterre>
+    <language></language>
+    <acelang></acelang>
+    <sandbox></sandbox>
+    <grader></grader>
+    <cputimelimitsecs>1</cputimelimitsecs>
+    <memlimitmb></memlimitmb>
+    <sandboxparams></sandboxparams>
+    <templateparams></templateparams>
+    <hoisttemplateparams>1</hoisttemplateparams>
+    <twigall>0</twigall>
+    <uiplugin></uiplugin>
+    <testcases>
+      <testcase testtype="0" useasexample="0" hiderestiffail="0" mark="1.0000000" >
+      <testcode>
+                <text>print(X)</text>
+      </testcode>
+      <stdin>
+                <text>print(X)</text>
+      </stdin>
+      <expected>
+                <text>{1, 6, 12, 15, 18}</text>
+      </expected>
+      <extra>
+                <text></text>
+      </extra>
+      <display>
+                <text>HIDE</text>
+      </display>
+    </testcase>
+    </testcases>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634021  -->
+  <question type="matching">
+    <name>
+      <text>Himpunan 1.4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose</p><p></p><p>\( A = \lbrace{2, 3, 4, c}\rbrace  \),</p><p>\( B = \lbrace{2, 4, 6}\rbrace  \),<br></p><p>\( C = \lbrace{2, 6, 6, 4 , 2, 2, 4}\rbrace \),<br></p><p>\( D = \lbrace{2, c, 4, 3}\rbrace \).<br></p><p></p>Obviously \(A = A\) and \(B = B\). Choose other sets so that the following equality holds.<br><p></p><p><strong>ID</strong>: Misalkan</p><p>\( A = \lbrace{2, 3, 4, c}\rbrace  \)</p><p>\( B = \lbrace{2, 4, 6}\rbrace  \)<br></p><p>\( C = \lbrace{2, 6, 6, 4 , 2, 2, 4}\rbrace \)<br></p><p>\( D = \lbrace{2, c, 4, 3}\rbrace \)</p><p>Jelas bahwa \(A=A\) dan \(B = B\). Pilihlah himpunan lain sehingga persamaan berikut benar.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>\(A =\) <br></p>]]></text>
+      <answer>
+        <text>D</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\(B =\) <br></p>]]></text>
+      <answer>
+        <text>C</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>B</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>A</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>no correct choices (tidak ada pilihan yang benar)</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634022  -->
+  <question type="multichoice">
+    <name>
+      <text>Himpunan 1.6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose</p><p>\( A= \lbrace{2, 4, 6, 8}\rbrace  \),<br></p><p>\( B= \lbrace{2, 6}\rbrace \),<br></p><p>\( C= \lbrace{4}\rbrace \).<br></p><p>Choose all correct statements.<br></p><p></p><p><strong>ID</strong>: Misalkan</p><p>\( A= \lbrace{2, 4, 6, 8}\rbrace  \),<br></p><p>\( B= \lbrace{2, 6}\rbrace \),<br></p><p>\( C= \lbrace{4}\rbrace \).<br></p><p>Pilihlah semua pernyataan yang benar.<br></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>\( B \subset A  \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>\( C \subset A \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>\( A \subset C \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<p>\( C \subset B \)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634023  -->
+  <question type="multichoice">
+    <name>
+      <text>Himpunan 1.8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Which one is the notation for the powerset of a set \(A\)?</p><p><strong>ID</strong>: Mana sajakah yang merupakan notasi untuk himpunan kuasa dari himpunan \(A\)?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text>\( 2^A \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>\( \mathcal{P}(A) \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text>\( pow(A) \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text>\(|A|\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634024  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: Elements</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A =\{1,\{1\},2,3\}\). Choose all correct statements.</p><p><strong>ID</strong>: Misalkan \(A =\{1,\{1\},2,3\}\). Pilihlah semua pernyataan yang benar.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text>\(1 \in A\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text>\(\{1\} \subset A\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text>\(\{1\} \in A\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text>\(\{2,3\} \in A\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text>\(\{1\} \notin A\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634025  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: himp kuasa</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Determine \( \mathcal{P}\left(\{a,2\}\right) \).</p><p><strong>ID</strong>: Tentukan \( \mathcal{P}\left(\{a,2\}\right) \).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{2\},\{a\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{2\},\{a\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{2\},\{a\}\},\{2,a\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\}, \{2\}, \{a\}, \{2,a\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{2\},\{a\},\{2,a\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634026  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: himp kuasa</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Determine \( \mathcal{P}\left(\{a,2,b\}\right)  \).</p><p><strong>ID</strong>: Tentukan \( \mathcal{P}\left(\{a,2,b\}\right)  \).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{a\},\{2\}, \{b\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{a\},\{2\},\{b\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{a\},\{2\}\},\{2,b\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{a\}, \{2\}, \{b\}, \{a,2,b\},\{a,2\},\{b,2\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{a\},\{2\},\{b\},\{a,2\},\{a,b\},\{2,b\},\{a,b,2\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634027  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: himp kuasa</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Determine \( \mathcal{P} \left(\{\{\},\{\{\}\}\}\right)\).</p><p><strong>ID</strong>: Tentukan \( \mathcal{P} \left(\{\{\},\{\{\}\}\}\right)\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{\{\}\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{\{\}\},\{\{\},\{\{\}\}\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{\},\{\}\},\{\{\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\( \{\{\},\{\{\}\},\{\{\{\}\}\},\{\{\},\{\{\}\}\}\} \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634028  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: Kesamaan Himpunan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose</p><ul><li>\(A = \{1,2,3,4,6,12\}\)</li><li>\(B = \{x \text{ | } x \text{ is a factor of 12}\}\)</li><li>\(C = \{1,2,3\}\)</li><li>\(D=\{1,2,2,3,3,3\}\)</li></ul><p>Choose all correct statements.<br></p><p></p><p><strong>ID</strong>: Misalkan</p><ul><li>\(A = \{1,2,3,4,6,12\}\)</li><li>\(B = \{x \text{ | } x \text{ adalah faktor dari 12}\}\)</li><li>\(C = \{1,2,3\}\)</li><li>\(D=\{1,2,2,3,3,3\}\)</li></ul><p>Pilihlah semua pernyataan yang benar.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text>\(A=B\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text>\(C=D\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text>\(A \neq C\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text>\(A \neq D\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text>\(A=D\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634029  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: Set of Numbers</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Choose all correct statements.</p><p><strong>ID</strong>: Pilihlah semua pernyataan yang benar.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text>\(0 \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>\(1 \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>\(\frac{56}{36} \in \mathbb{Z}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>\(2 \not \in \mathbb{C}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>\(2 \not \in \mathbb{R}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634030  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: Set of Numbers (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Choose all correct statements.</p><p><strong>ID</strong>: Pilihlah semua pernyataan yang benar.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text>\(0 \in \mathbb{C}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text>\(\text{log}_{\frac{2}{3}} \frac{81}{16} \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>\(\text{log}_{\frac{2}{3}} \frac{99}{44} \not \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>\(-1 \in \mathbb{N}_0\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text>\(-2 \not \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634031  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: Set of Numbers (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Choose all correct statements.</p><p><strong>ID</strong>: Pilihlah semua pernyataan yang benar.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text>\(\sqrt{\frac{196}{121}} \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text>\(\text{log}_{\frac{1}{3}} 243 \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p>\(\frac{102}{17} \in \mathbb{N}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text>\(\sqrt{-2} \not \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text>\(\sqrt[3]{-27} \not \in \mathbb{R}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634032  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: Set of Numbers (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Choose all correct statements.</p><p><strong>ID</strong>: Pilihlah semua pernyataan yang benar.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text>\(\sqrt[3]{\frac{-1331}{27}} \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text>\(\text{log}_{3} 2187 \in \mathbb{N}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p>\(\frac{171}{57} \in \mathbb{N}_{0}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text>\(\sqrt[3]\frac{1000}{-1331} \in \mathbb{N}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text>\(\sqrt{1000} \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634033  -->
+  <question type="multichoice">
+    <name>
+      <text>Teori Himpunan Elementer 1: Set of Numbers (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Choose all correct statements.</p><p><strong>ID</strong>: Pilihlah semua pernyataan yang benar.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text>\(\frac{-18}{6} \in \mathbb{Z}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text>\(\text{log}_{\frac{1}{3}} 59049 \in \mathbb{Q}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text>\(\text{log}_2 2000 \in \mathbb{C}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text>\(\sqrt[3]\frac{1000}{-1331} \not \in \mathbb{Z}\)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[\(3 \not \in \mathbb{C}\)<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634034  -->
+  <question type="numerical">
+    <name>
+      <text>Himpunan 1.7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><p><strong>EN</strong>: If \( A = \lbrace m \in N |  \, (m &lt; 10) \wedge (m \, is \, odd )\rbrace \) determine \( |A| \).<br></p><p></p><p><strong>ID</strong>: Jika&nbsp;\( A = \lbrace m \in N |  \, (m &lt; 10) \wedge (m \, bilangan \, ganjil) \rbrace \) tentukan \( |A| \).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>5</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634035  -->
+  <question type="numerical">
+    <name>
+      <text>Himpunan 2.7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: <span jsaction="mouseup:BR6jm" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="0" jsdata="uqLsIf;_;$23"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">An educational institution provides three language majors, namely English, Japanese, and Mandarin.</span></span> <span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="1" jsdata="uqLsIf;_;$24"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">Each student in the institution may choose more than one department.</span></span> <span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="2" jsdata="uqLsIf;_;$25"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">Suppose there are \(1232 \) students majoring in English, \(879\) people majoring in Japanese, \(114\) people majoring in Mandarin, \(103\) people majoring in English and Japanese, \(23\) people majoring in English and Mandarin, and \(14\) people majoring in Japanese and</span></span> <span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="3" jsdata="uqLsIf;_;$26"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">Mandarin.</span></span> <span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="4" jsdata="uqLsIf;_;$27"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">If the number of students in the institution is \(2092\) and every student takes at least one major, how many students study all English, Japanese, and Mandarin?</span></span></span><br></p><p><strong>ID</strong>: Sebuah lembaga pendidikan menyediakan tiga jurusan bahasa yaitu bahasa Inggris, Jepang, dan Mandarin. Setiap pelajar dalam lembaga tersebut boleh memilih lebih dari satu jurusan. Misalkan ada \(1232\) pelajar yang mengambil jurusan bahasa Inggris, \(879\) orang mengambil jurusan bahasa Jepang, \(114\) orang mengambil jurusan bahasa Mandarin, \(103\) orang mengambil jurusan bahasa Inggris dan Jepang, \(23\) orang mengambil jurusan bahasa Inggris dan Mandarin, dan \(14\) orang mengambil jurusan bahasa Jepang dan Mandarin. Jika jumlah pelajar dalam lembaga itu ada \(2092\) orang dan setiap siswa setidaknya mengambil satu jurusan, berapakah banyaknya pelajar yang mengambil jurusan bahasa Inggris, Jepang, dan Mandarin sekaligus?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>7</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634036  -->
+  <question type="numerical">
+    <name>
+      <text>T. Himpunan Elementer 1: kardinalitas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Determine \( |\mathcal{P} \left\{(a,b,c\}\right)|\).</p><p><strong>ID</strong>: Tentukan \( |\mathcal{P} \left\{(a,b,c\}\right)|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>8</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634037  -->
+  <question type="numerical">
+    <name>
+      <text>T. Himpunan Elementer 1: kardinalitas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Determine \( |\mathcal{P} (\emptyset)| \).</p><p><strong>ID</strong>: Tentukan \( |\mathcal{P} (\emptyset)| \).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>1</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634038  -->
+  <question type="numerical">
+    <name>
+      <text>T. Himpunan Elementer 1: kardinalitas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Determine \( |\mathcal{P} \left(\{\{\},\{\{\}\}\}\right)|\).</p><p><strong>ID</strong>: Tentukan \( |\mathcal{P} \left(\{\{\},\{\{\}\}\}\right)|\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634039  -->
+  <question type="numerical">
+    <name>
+      <text>Teori Himpunan Elementer 1: Kardinalitas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Determine \( |\emptyset|\).</p><p><strong>ID</strong>: Tentukan\( |\emptyset|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>0</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634040  -->
+  <question type="numerical">
+    <name>
+      <text>Teori Himpunan Elementer 2: Inklusi-Eksklusi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: <span jsaction="mouseup:BR6jm" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="0" jsdata="uqLsIf;_;$32"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">Suppose there are \(1467\) students in a building, \(97\) of whom are studying Calculus, \(68\) of them are studying Mathematical Logic, and \(12 \) of them are studying both subjects.</span></span> <span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="1" jsdata="uqLsIf;_;$33"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">How many students are there in the building who are <strong>not</strong> studying Calculus or Mathematical Logic?</span></span></span><strong><br></strong></p><p><strong>ID</strong>: Misalkan terdapat \(1467\) mahasiswa di suatu gedung, \(97\) orang di antaranya sedang mempelajari Kalkulus, \(68\) orang sedang mempelajari Logika Matematika, dan \(12\) orang sedang mempelajari keduanya. Ada berapa banyak mahasiswa di gedung itu yang tidak sedang mempelajari Kalkulus atau Logika Matematika? 
+</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>1314</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634041  -->
+  <question type="numerical">
+    <name>
+      <text>Teori Himpunan Elementer 2: Inklusi-Eksklusi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>:<strong> </strong><span jsaction="mouseup:BR6jm" jsname="jqKxS" lang="en"><span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="0" jsdata="uqLsIf;_;$35"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">In a building, there are \(115\) students studying Mathematical Logic, \(71\) students studying Calculus, and \(56\) students studying Algorithms.</span></span> <span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="1" jsdata="uqLsIf;_;$36"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">Among them, \(25\) students learn Mathematical Logic and Calculus, \(14\) students learn Mathematical Logic and Algorithms, and \(9\) students learn Calculus and Algorithms.</span></span> <span jsaction="agoMJf:PFBcW;usxOmf:aWLT7;jhKsnd:P7O7bd,F8DmGf;Q4AGo:Gm7gYd,qAKMYb;uFUCPb:pvnm0e,pfE8Hb,PFBcW;f56efd:dJXsye;EnoYf:KNzws,ZJsZZ,JgVSJc;zdMJQc:cCQNKb,ZJsZZ,zchEXc;Ytrrj:JJDvdc;tNR8yc:GeFvjb;oFN6Ye:hij5Wb" jscontroller="Zl5N8" jsmodel="SsMkhd" jsname="txFAF" data-language-for-alternatives="en" data-language-to-translate-into="id" data-phrase-index="2" jsdata="uqLsIf;_;$37"><span jsaction="click:qtZ4nf,GFf3ac,tMZCfe; contextmenu:Nqw7Te,QP7LD; mouseout:Nqw7Te; mouseover:qtZ4nf,c2aHje" jsname="W297wb">If there are \(196\) students learn one of the Mathematical Logic, Calculus, or Algorithm courses, how many people will study all three courses at once?</span></span></span><br></p><p><strong>ID</strong>: Di suatu gedung ada sebanyak \(115\) mahasiswa yang mempelajari Logika Matematika, \(71\) mahasiswa yang mempelajari Kalkulus, dan \(56\) mahasiswa yang mempelajari Algoritma. Di antara mereka semua, \(25\) mahasiswa mempelajari Logika Matematika dan Kalkulus, \(14\) mahasiswa mempelajari Logika Matematika dan Algoritma, serta \(9\) mahasiswa mempelajari Kalkulus dan Algoritma. Jika terdapat \(196\) mahasiswa yang mempelajari salah satu dari kuliah Logika Matematika, Kalkulus, atau Algoritma, berapa orang yang mempelajari ketiga mata kuliah tersebut sekaligus?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634042  -->
+  <question type="numerical">
+    <name>
+      <text>THE 2: inklusi-eksklusi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: How many positive integers less than \(100\) that are neither divisible by \(5\) nor \(7\)?<strong><br></strong></p><p><strong>ID</strong>: Berapa banyak bilangan bulat positif kurang dari \(100\) yang tidak habis dibagi \(5\) maupun \(7\)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>68</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634043  -->
+  <question type="numerical">
+    <name>
+      <text>THE 2: inklusi-eksklusi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: There are \(70\) people in a room. Among them, \(32\) people wear dark-blue shirts, \(20\) people wear light-blue shirts, and \(12\) people wear green shirts. From this information alone, how many people wear shirts with <strong>any color other than blue</strong>?<br></p><p><strong>ID</strong>: Terdapat \(70\) orang di suatu ruangan. Di antara orang-orang itu, \(32\) orang&nbsp; memakai baju berwarna biru tua, \(20\) orang memakai baju warna biru muda, dan \(12\) orang memakai baju warna hijau. Dari informasi ini saja, berapa orang yang memakai baju dengan <strong>warna selain biru</strong>?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>18</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634044  -->
+  <question type="numerical">
+    <name>
+      <text>THE 2: inklusi-eksklusi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Among \(100\) students \(39\) of them like sports. From these \(39\) students who like sports, \(11\) of them also like playing music. If there are \(32\) students who neither like sports nor playing music, how many students who like playing music but dislike sports among these \(100\) students?<strong></strong><strong><br></strong></p><p><strong>ID</strong>: Di antara \(100\) siswa terdapat \(39\) orang yang gemar olahraga. Di antara \(39\) orang penggemar olahraga tersebut, \(11\) orang siswa juga gemar bermain musik. Jika ada \(32\) siswa yang tidak gemar olahraga maupun musik, berapa banyaknya penggemar musik yang tidak suka olahraga di antara \(100\) siswa tersebut?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>29</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634045  -->
+  <question type="numerical">
+    <name>
+      <text>THE 2: inklusi-eksklusi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>:
+ A class consists of \(42\) students. \(1/3\) of these students like 
+swimming and \(1/6\) of them like both swimming and soccer. If \(18\) 
+students do not like either sport (i.e., these students neither like 
+swimming nor soccer), how many students like only soccer?<br></p><p><strong>ID</strong>:
+ Suatu kelas terdiri dari \(42\) siswa. \(1/3\) dari seluruh siswa itu 
+menyukai olahraga renang dan \(1/6\) dari seluruh siswa kelas tersebut 
+menyukai olahraga renang dan sepakbola. Apabila ada \(18\) orang tidak
+ menyukai kedua olahraga tersebut (tidak suka renang dan tidak suka 
+sepakbola), berapa orang yang hanya menyukai olahraga sepakbola saja? 
+<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634046  -->
+  <question type="numerical">
+    <name>
+      <text>THE 2: inklusi-eksklusi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: A high school has just collected data on the majors chosen by its alumni. A quarter of the alumni are accepted into the business major,&nbsp; one-third of the alumni are accepted into the law major, and one-fifth of the alumni are accepted into both majors (business and law). What is the percentage of the alumni that neither accepted in business nor law majors? (Note: use period as a decimal separator. Do not add a percent symbol (\(\%\)). Round your answer to two digits after the decimal point. For example, if your answer is \(12.34\%\), simply type \(12.34\).)<br></p><strong>ID</strong>: Sebuah SMA baru saja mengadakan pendataan jurusan yang dipilih oleh alumninya. Seperempat lulusannya diterima di jurusan bisnis, sepertiga lulusannya diterima di jurusan hukum, dan seperlima lulusannya diterima di kedua jurusan tersebut (bisnis dan hukum). Berapa persen lulusan SMA tesebut yang tidak diterima di jurusan bisnis maupun hukum? (Catatan: gunakan tanda titik untuk pemisah desimal. Jangan menambahkan simbol persen (\(\%\)). Bulatkan jawaban Anda hingga dua angka setelah titik desimal. Contohnya jika jawaban Anda adalah \(12.34 \%\), cukup tuliskan \(12.34\) saja.)<br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>61.67</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>61.66</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+      <tolerance>0</tolerance>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634047  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 1.9 (Cardinality 1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A = \{3, 6, 9, \dots ,594,597,600\}\). Determine \(|A|\).</p><p><strong>ID</strong>: Misalkan \(A = \{3, 6, 9, \dots ,594,597,600\}\). Tentukan \(|A|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>200</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634048  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 1.9 (Cardinality 2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A = \{9, 18, 27, \dots, 981,990,999\}\). Determine \(|A|\).</p><p><strong>ID</strong>: Misalkan \(A = \{9, 18, 27, \dots, 981,990,999\}\). Tentukan \(|A|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>111</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634049  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 1.9 (Cardinality 3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A = \{35, 42, 49, \dots, 777,784,791\}\). Determine \(|A|\).</p><p><strong>ID</strong>: Misalkan \(A = \{35, 42, 49, \dots, 777,784,791\}\). Tentukan \(|A|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>109</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="70" format="moodle_auto_format">
+      <text>108</text>
+      <feedback format="html">
+        <text><![CDATA[almost correct (hampir benar)<br>]]></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634050  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 1.9 (Cardinality 4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A = \{65, 78, 91, \dots, 1287,1300,1313\}\). Determine \(|A|\).</p><p><strong>ID</strong>: Misalkan \(A = \{65, 78, 91, \dots, 1287,1300,1313\}\). Tentukan \(|A|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>97</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="70" format="moodle_auto_format">
+      <text>96</text>
+      <feedback format="html">
+        <text><![CDATA[almost correct (hampir benar)<br>]]></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634051  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 1.9 (Cardinality 5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A = \{x \text{ | } (1 \leq x \leq 1000) \wedge (x \text{ is divisible by 6})\}\). Determine \(|A|\).</p><p><strong>ID</strong>: Misalkan \(A = \{x \text{ | } (1 \leq x \leq 1000) \wedge (x \text{ habis dibagi 6})\}\). Tentukan \(|A|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>166</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="70" format="moodle_auto_format">
+      <text>165</text>
+      <feedback format="html">
+        <text><![CDATA[almost correct (hampir benar)<br>]]></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634052  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 1.9 (Cardinality 6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A = \{x \text{ | } (10 \leq x \leq 1000) \wedge (x \text{ is divisible by 6})\}\). Determine \(|A|\).</p><p><strong>ID</strong>: Misalkan \(A = \{x \text{ | } (10 \leq x \leq 1000) \wedge (x \text{ habis dibagi 6})\}\). Tentukan \(|A|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>165</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="70" format="moodle_auto_format">
+      <text>166</text>
+      <feedback format="html">
+        <text><![CDATA[almost correct (hampir benar)<br>]]></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634053  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 1.9 (Cardinality 7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A = \{x \text{ | } (10 \leq x \leq 1000) \wedge (x \text{ is divisible by 5})\}\). Determine \(|A|\).</p><p><strong>ID</strong>: Misalkan \(A = \{x \text{ | } (10 \leq x \leq 1000) \wedge (x \text{ habis dibagi 5})\}\). Tentukan \(|A|\).</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>199</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="70" format="moodle_auto_format">
+      <text>198</text>
+      <feedback format="html">
+        <text><![CDATA[almost correct (hampir benar)<br>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>200</text>
+      <feedback format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">almost correct (hampir benar)<br><br></p>]]></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634054  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 2.8 (PIE)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><div><div><div><strong>EN</strong>: There are \(350\) people in a theater. Among them, \(175\) people like horror movies, \(250\) people like romantic movies, and \(125\) people like both horror and romantic movies. How many people in the theater that neither like horror movies nor romantic movies?</div><div><strong>ID</strong>: Ada \(350\) orang di bioskop. Di antara mereka, \(175\) orang menyukai film horor, \(250\) orang menyukai film romantis, dan \(125\) orang menyukai keduanya. Ada berapa banyak orang di bioskop itu yang tidak menyukai film horor maupun romantis?<br></div></div></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>50</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634055  -->
+  <question type="shortanswer">
+    <name>
+      <text>Himpunan 2.8 (PIE) (xor)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><div><div><div><strong>EN</strong>: There are \(350\) people in a theater. Among them, \(175\) people like horror movies, \(250\) people like romantic movies, and \(125\) people like both horror and romantic movies. How many people in the theater that neither like either horror movies or romantic movies, but do not like both type of movies? (That is, the number of people who like exactly one type of movie.) <br></div><div><strong>ID</strong>: Ada \(350\) orang di bioskop. Di antara mereka, \(175\) orang menyukai film horor, \(250\) orang menyukai film romantis, dan \(125\) orang menyukai keduanya. Ada berapa banyak orang di bioskop itu yang menyukai salah satu dari film horor atau romantis, tetapi tidak menyukai keduanya? (Yaitu, orang yang menyukai tepat salah satu jenis film saja.)<br></div></div></div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>175</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634056  -->
+  <question type="shortanswer">
+    <name>
+      <text>THE 2: operasi (difference 1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose 
+\(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), and \(Fave = \{regal,chiki,lays\}\). Determine 
+\(Chips \smallsetminus Fave\). (Note: sort the elements alphabetically and DO 
+NOT add any space. Separate distinct element with comma. An empty set 
+can be denoted by a pair of curly brackets, \(\{\}\)).</p><p><strong>ID</strong>:
+ Misalkan \(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), dan \(Fave = \{regal,chiki,lays\}\). Tentukan 
+\(Chips \smallsetminus Fave\). (Catatan: urutkan elemen-elemen secara 
+alfabetis dan JANGAN tambahkan spasi. Pisahkan elemen yang berbeda 
+dengan koma. Himpunan kosong dapat ditulis dengan sepasang kurung 
+kurawal, \(\{\}\)).<br></p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>{piatos}</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634057  -->
+  <question type="shortanswer">
+    <name>
+      <text>THE 2: operasi (difference 2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose 
+\(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), and \(Fave = \{regal,chiki,lays\}\). Determine 
+\(Fave \smallsetminus Chips\). (Note: sort the elements alphabetically and DO 
+NOT add any space. Separate distinct element with comma. An empty set 
+can be denoted by a pair of curly brackets, \(\{\}\)).</p><p><strong>ID</strong>:
+ Misalkan \(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), dan \(Fave = \{regal,chiki,lays\}\). Tentukan 
+\(Fave \smallsetminus Chips\). (Catatan: urutkan elemen-elemen secara 
+alfabetis dan JANGAN tambahkan spasi. Pisahkan elemen yang berbeda 
+dengan koma. Himpunan kosong dapat ditulis dengan sepasang kurung 
+kurawal, \(\{\}\)).<br></p><br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>{regal}</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634058  -->
+  <question type="shortanswer">
+    <name>
+      <text>THE 2: operasi (intersection 1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose 
+\(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), and \(Fave = \{regal,chiki,lays\}\). Determine 
+\(Biscuits \cap Chips\). (Note: sort the elements alphabetically and DO 
+NOT add any space. Separate distinct element with comma. An empty set 
+can be denoted by a pair of curly brackets, \(\{\}\)).</p><p><strong>ID</strong>:
+ Misalkan \(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), dan \(Fave = \{regal,chiki,lays\}\). Tentukan 
+\(Biscuits \cap Chips\). (Catatan: urutkan elemen-elemen secara 
+alfabetis dan JANGAN tambahkan spasi. Pisahkan elemen yang berbeda 
+dengan koma. Himpunan kosong dapat ditulis dengan sepasang kurung 
+kurawal, \(\{\}\)).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>{}</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>\( \emptyset \)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634059  -->
+  <question type="shortanswer">
+    <name>
+      <text>THE 2: operasi (intersection 2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose 
+\(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), and \(Fave = \{regal,chiki,lays\}\). Determine 
+\(Biscuits \cap Fave\). (Note: sort the elements alphabetically and DO 
+NOT add any space. Separate distinct element with comma. An empty set 
+can be denoted by a pair of curly brackets, \(\{\}\)).</p><p><strong>ID</strong>:
+ Misalkan \(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), dan \(Fave = \{regal,chiki,lays\}\). Tentukan 
+\(Biscuits \cap Fave\). (Catatan: urutkan elemen-elemen secara 
+alfabetis dan JANGAN tambahkan spasi. Pisahkan elemen yang berbeda 
+dengan koma. Himpunan kosong dapat ditulis dengan sepasang kurung 
+kurawal, \(\{\}\)).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>{regal}</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634060  -->
+  <question type="shortanswer">
+    <name>
+      <text>THE 2: operasi (intersection 3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose 
+\(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), and \(Fave = \{regal,chiki,lays\}\). Determine 
+\(Chips \cap Fave\). (Note: sort the elements alphabetically and DO 
+NOT add any space. Separate distinct element with comma. An empty set 
+can be denoted by a pair of curly brackets, \(\{\}\)).</p><p><strong>ID</strong>:
+ Misalkan \(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), dan \(Fave = \{regal,chiki,lays\}\). Tentukan 
+\(Chips \cap Fave\). (Catatan: urutkan elemen-elemen secara 
+alfabetis dan JANGAN tambahkan spasi. Pisahkan elemen yang berbeda 
+dengan koma. Himpunan kosong dapat ditulis dengan sepasang kurung 
+kurawal, \(\{\}\)).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>{chiki,lays}</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>{lays,chiki}</text>
+      <feedback format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">sort the elements alphabetically (urutkan elemen-elemen secara alfabetis)<br></p>]]></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634061  -->
+  <question type="shortanswer">
+    <name>
+      <text>THE 2: operasi (union)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = \{chiki,piatos,lays\}\), and \(Fave = \{regal,chiki,lays\}\). Determine \(Biscuits \cup Chips\). (Note: sort the elements alphabetically and DO NOT add any space. Separate distinct element with comma. An empty set can be denoted by a pair of curly brackets, \(\{\}\)).</p><p><strong>ID</strong>: Misalkan \(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = \{chiki,piatos,lays\}\), dan \(Fave = \{regal,chiki,lays\}\). Tentukan \(Biscuits \cup Chips\). (Catatan: urutkan elemen-elemen secara alfabetis dan JANGAN tambahkan spasi. Pisahkan elemen yang berbeda dengan koma. Himpunan kosong dapat ditulis dengan sepasang kurung kurawal, \(\{\}\)).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>{chiki,lays,marie,piatos,regal,richeese,ritz}</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634062  -->
+  <question type="shortanswer">
+    <name>
+      <text>THE 2: operasi (xor)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose 
+\(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), and \(Fave = \{regal,chiki,lays\}\). Determine 
+\(Fave \oplus Chips\). (Note: sort the elements alphabetically and DO 
+NOT add any space. Separate distinct element with comma. An empty set 
+can be denoted by a pair of curly brackets, \(\{\}\)).</p><p><strong>ID</strong>:
+ Misalkan \(Biscuits = \{regal,richeese,marie,ritz\}\), \(Chips = 
+\{chiki,piatos,lays\}\), dan \(Fave = \{regal,chiki,lays\}\). Tentukan 
+\(Fave \oplus Chips\). (Catatan: urutkan elemen-elemen secara 
+alfabetis dan JANGAN tambahkan spasi. Pisahkan elemen yang berbeda 
+dengan koma. Himpunan kosong dapat ditulis dengan sepasang kurung 
+kurawal, \(\{\}\)).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>{piatos,regal}</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>{regal,piatos}</text>
+      <feedback format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;"><span id="selectionBoundary_1608563519397_8264653230384094" style="line-height: 0; display: none;" class="rangySelectionBoundary">﻿</span></p><p dir="ltr">sort the elements alphabetically (urutkan elemen-elemen secara alfabetis)<br></p><br><p></p>]]></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634063  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 1.1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The set \(A = \{8,4,2,1,\frac{1}{2},\frac{1}{4},\frac{1}{8}, \dots\}\) is infinite.<br></p><p><strong>ID</strong>: Himpunan \(A = \{8,4,2,1,\frac{1}{2},\frac{1}{4},\frac{1}{8}, \dots\}\) tidak berhingga.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634064  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 1.10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \(\emptyset \in \{0,1,2,3,4, \dots\}\).</p><p><strong>ID</strong>: \(\emptyset \in \{0,1,2,3,4, \dots\}\). <br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634065  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 1.2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \(\{1,2,3\} \subseteq \{0,1,2,3,4\}\)<br></p><p><strong>ID</strong>: \(\{1,2,3\} \subseteq \{0,1,2,3,4\}\)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634066  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 1.3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \(\{1,3,5,7,9, \dots \} \supset \{3,5,7,9, \dots\}\)</p><p><strong>ID</strong>: \(\{1,3,5,7,9, \dots \} \supset \{3,5,7,9, \dots\}\)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634067  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 1.5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \(\{2,3,5,7,11,13,17,19\} \supseteq \{2,3,5,7,11,13,17,19\} \)<br></p><p><strong>ID</strong>: \(\{2,3,5,7,11,13,17,19\} \supseteq \{2,3,5,7,11,13,17,19\} \)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634068  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 2.1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: For any set \(A\) we have \(A \cap \emptyset = \emptyset\).</p><p><strong>ID</strong>: Untuk setiap himpunan \(A\) kita memiliki \(A \cap \emptyset = \emptyset\).</p><p></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634069  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 2.10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \(A\) and \(B\) are two sets. If \(A \cap B = \emptyset\) and \(A \subseteq (B \cup C)\), then \(A \nsubseteq C\).<br></p><p><strong>ID</strong>: Misalkan \( A \) dan&nbsp;\( B \) adalah dua himpunan. Jika&nbsp;\( A \cap B = \emptyset  \) dan&nbsp;\( A \subseteq (B \cup C)  \), maka&nbsp;\( A \nsubseteq C \)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634070  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 2.2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: For any set \(A\) we have \(A \cap \overline{A} = \emptyset\).</p><p><strong>ID</strong>: Untuk setiap himpunan \(A\) kita memiliki \(A \cap \overline{A} = \emptyset\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634071  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 2.3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Given a universal set \(S = \{x \in \mathbb{N}: x \leq 10 \}\), \(A = \{1,2,3,4\}\) and \(B=\{3,4,5,6\}\), then \(A \oplus B = B \oplus A\).<br></p><p><strong>ID</strong>: Diberikan himpunan semesta&nbsp;\( S = \{x \in \mathbb{N}: x \leq 10 \}\),&nbsp;\( A= \{1, 2, 3, 4\}\) dan \( B= \{3, 4, 5, 6\} \), maka \( A\oplus B= B \oplus A  \).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634072  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 2.4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Suppose \( A = \lbrace{1, 3, 5}\rbrace  \) and \( B = \lbrace{2, 3, 6}\rbrace \), then \( A \times B \neq B \times A   \).<br></p><p><strong>ID</strong>: Misalkan&nbsp;\( A = \lbrace{1, 3, 5}\rbrace  \) dan&nbsp;&nbsp;\( B = \lbrace{2, 3, 6}\rbrace \), maka \( A \times B \neq B \times A   \).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634073  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 2.5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: If \(A\) and \(B\) are finite, then \(|A \cup B| = |A| + |B| - |A \cap B|\).<br></p><p><strong>ID</strong>: Jika\( A \) dan&nbsp;\( B \) adalah dua himpunan berhingga, maka \( |A \cup B| = |A| + |B| - |A \cap B| \).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634074  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 2.6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: There are no finite sets \(A\) and \(B\) such that \(|A \cup B| = |A| + |B|\).<br></p><p><strong>ID</strong>: Tidak ada himpunan berhingga \(A\) dan \(B\) dengan sifat \(|A \cup B| = |A| + |B|\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">consider the case if \(A \cap B&nbsp; = \emptyset\) (tinjau kasus ketika \(A \cap B = \emptyset\))<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634075  -->
+  <question type="truefalse">
+    <name>
+      <text>Himpunan 2.9</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: Misalkan \(A\) dan \(B\) adalah dua himpunan, jika \(A \subseteq B\), maka \(A \cap B = A\).<br></p><p><strong>ID</strong>: Misalkan \( A \) dan&nbsp;\( B \) adalah dua himpunan. Jika \(A \subseteq B\), maka \(A \cap B = A\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634076  -->
+  <question type="truefalse">
+    <name>
+      <text>T. Himpunan Elementer 1: definisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The empty set is not a subset of \( \{x,y,z\} \).<strong><br></strong></p><p><strong>ID</strong>: Himpunan kosong bukan merupakan himpunan bagian dari \( \{x,y,z\} \).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634077  -->
+  <question type="truefalse">
+    <name>
+      <text>T. Himpunan Elementer 1: definisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \( \{x,\{z\}\} \) is not a subset of \( \{x,y,z\} \).<br></p><p><strong>ID</strong>: \( \{x,\{z\}\} \) bukan merupakan himpunan bagian dari \( \{x,y,z\} \).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634078  -->
+  <question type="truefalse">
+    <name>
+      <text>T. Himpunan Elementer 1: definisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \( \{y\} \) is not a subset of \( \{x,y,z\} \).<strong><br></strong></p><p><strong>ID</strong>: \( \{y\} \) bukan merupakan himpunan bagian dari \( \{x,y,z\} \).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634079  -->
+  <question type="truefalse">
+    <name>
+      <text>T. Himpunan Elementer 1: definisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \( \{x,y,z\} \) is not a subset of \( \{x,y,z\} \).<strong><br></strong></p><p><strong>ID</strong>: \( \{x,y,z\} \) bukan merupakan himpunan bagian dari \( \{x,y,z\} \).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634080  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 1:  Himpunan bagian</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \(\{1\} \subseteq \{1,\{1\}\}\)</p><p><strong>ID</strong>:&nbsp;\(\{1\} \subseteq \{1,\{1\}\}\) <br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634081  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 1: Definisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \(\{a,b,c,d\} \neq \{a,d,c,b\}\) because their order are different.</p><p><strong>ID</strong>: \(\{a,b,c,d\} \neq \{a,d,c,b\}\) karena mereka memiliki urutan yang berbeda.<br></p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634082  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 1: Definisi</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \(\{a\} \in \{a,\{a\}\}\)</p><p><strong>ID</strong>: \(\{a\} \in \{a,\{a\}\}\)<br> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634083  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 1: Definisi (copy)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The set \(A = \{0,\{0\},\{\{0\}\}\}\) has only one element, namely \(0\).</p><p><strong>ID</strong>: Himpunan \(A = \{0,\{0\},\{\{0\}\}\}\) hanya memiliki satu anggota, yaitu \(0\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634084  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 1: Kesamaan Himpunan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \( \{a,b,b,a\}=\{b,a,b,a\}=\{b,a\}=\{a,b\} \)</p><p><strong>ID</strong>: \( \{a,b,b,a\}=\{b,a,b,a\}=\{b,a\}=\{a,b\} \)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634085  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 1: Kesamaan Himpunan (copy)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: \(\{a,b,a,c,a\} \neq \{b,a,c,a,b,a,c,a\}\)</p><p><strong>ID</strong>: \(\{a,b,a,c,a\} \neq \{b,a,c,a,b,a,c,a\}\)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori Himpunan Elementer 1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634086  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 2: Partisi Himpunan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The collection \( \{\{m,o,c,k\},\{r,u,b,s\}\} \) is a partition of \(S = \{u,m,b,r,o,c,k,s\}\).</p><p><strong>ID</strong>: Koleksi \( \{\{m,o,c,k\},\{r,u,b,s\}\} \) adalah partisi dari \(S = \{u,m,b,r,o,c,k,s\}\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634087  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 2: Partisi Himpunan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The collection \( \{\{c,o,m,b\},\{u,s\},\{r\}\} \) is a partition of \(S = \{u,m,b,r,o,c,k,s\}\).</p><p><strong>ID</strong>: Koleksi \(\{\{c,o,m,b\},\{u,s\},\{r\}\}\) adalah partisi dari \(S = \{u,m,b,r,o,c,k,s\}\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634088  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 2: Partisi Himpunan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The collection \( \{\{u,m,b,r,o,c,k,s\}\} \) is a partition of \(S = \{u,m,b,r,o,c,k,s\}\).</p><p><strong>ID</strong>: Koleksi \( \{\{u,m,b,r,o,c,k,s\}\} \) adalah partisi dari \(S = \{u,m,b,r,o,c,k,s\}\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634089  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 2: Partisi Himpunan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The collection \( \{\{b,o,o,k\},\{r,u,m\},\{c,s\}\} \) is a partition of \(S = \{u,m,b,r,o,c,k,s\}\).</p><p><strong>ID</strong>: Koleksi \( \{\{b,o,o,k\},\{r,u,m\},\{c,s\}\} \) adalah partisi dari \(S = \{u,m,b,r,o,c,k,s\}\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634090  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 2: Partisi Himpunan</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The collection \( \{\{b,u,m\},\{r,o,c,k,s\},\{\}\} \) is a partition of \(S = \{u,m,b,r,o,c,k,s\}\).</p><p><strong>ID</strong>: Koleksi \( \{\{b,u,m\},\{r,o,c,k,s\},\{\}\} \) adalah partisi dari \(S = \{u,m,b,r,o,c,k,s\}\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634091  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 2: Partisi Himpunan (copy)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The collection \( \{\{b,r,o,c,k\},\{m,u,s,t\}\} \) is a partition of \(S = \{u,m,b,r,o,c,k,s\}\).</p><p><strong>ID</strong>: Koleksi \( \{\{b,r,o,c,k\},\{m,u,s,t\}\} \) adalah partisi dari \(S = \{u,m,b,r,o,c,k,s\}\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634092  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 2: Partisi Himpunan (copy)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: The collection \( \{\{b,u,m\},\{c,o,r,k,s\}\} \) is a partition of \(S = \{u,m,b,r,o,c,k,s\}\).</p><p><strong>ID</strong>: Koleksi \( \{\{b,u,m\},\{c,o,r,k,s\}\} \) adalah partisi dari \(S = \{u,m,b,r,o,c,k,s\}\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 29634093  -->
+  <question type="truefalse">
+    <name>
+      <text>Teori Himpunan Elementer 2: Produk Kartesius</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><strong>EN</strong>: For any set \(A\) and \(B\), we have \(A \times B \neq B \times A\).</p><p><strong>ID</strong>: Untuk setiap himpunan \(A\) and \(B\), kita memiliki \(A \times B \neq B \times A\).<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">what if \(A = B\)? (bagaimana jika \(A = B\)?)<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Teori himpunan elementer 2</text>
+</tag>
+    </tags>
+  </question>
+
+</quiz>
