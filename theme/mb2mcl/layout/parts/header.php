@@ -1,3 +1,14 @@
+<style type="text/css">
+	.header-tools {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    border-left: aliceblue;
+    padding-right: 3rem;
+}
+</style>
 <?php
 // This file is part of Moodle - http://moodle.org/
 //
@@ -81,14 +92,14 @@ $menuPos = 1;
 								</div>
 							</div>
 							<div class="header-b">
-								<div class="header-tools">
+								<div class="header-tools open">
 									<?php echo theme_mb2mcl_panel_links(); ?>
-									<a href="#" class="tools-close"><i class="lni-close"></i></a>
+									<!-- <a href="#" class="tools-close"><i class="lni-close"></i></a> -->
 								</div>
 								<div class="tools-show">
-									<div class="tools-show-inner">
-									<a href="#"><i class="lni-more"></i></a>
-									</div>
+									<!-- <div class="tools-show-inner"> -->
+									<!-- <a href="#"><i class="lni-more"></i></a> -->
+									<!-- </div> -->
 								</div>
 							</div>
 		                </div>

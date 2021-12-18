@@ -6,7 +6,7 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'pgsql';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = '192.168.56.139';
+$CFG->dbhost    = '180.250.135.111';
 $CFG->dbname    = 'moodle';
 $CFG->dbuser    = 'moodle';
 $CFG->dbpass    = 'Moodle';
@@ -17,8 +17,8 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = 'https://dev-sinau.seculab.space';
-$CFG->dataroot  = '/usr/local/moodledata';
+$CFG->wwwroot   = 'http://localhost/random_number';//'https://dev-sinau.seculab.space';
+$CFG->dataroot  = '/Applications/XAMPP/xamppfiles/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;

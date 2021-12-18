@@ -51,13 +51,13 @@ function theme_mb2mcl_panel_links()
 
     if ( $CFG->langmenu && count( $langs ) > 1 )
     {
-        $output .= '<div class="header-tools-item tool-language">';
-        $output .= '<a href="#" class="header-tools-btn header-tools-btn-js language-btn" title="">';
-        $output .= '<span>' . theme_mb2mcl_language_code(current_language()) . '</span>';
-        $output .= '<i class="lni-world"></i>';
-        $output .= '</a>';
-        $output .= theme_mb2mcl_language_list();
-        $output .= '</div>';
+        // $output .= '<div class="header-tools-item tool-language">';
+        // $output .= '<a href="#" class="header-tools-btn header-tools-btn-js language-btn" title="">';
+        // $output .= '<span>' . theme_mb2mcl_language_code(current_language()) . '</span>';
+        // $output .= '<i class="lni-world"></i>';
+        // $output .= '</a>';
+        // $output .= theme_mb2mcl_language_list();
+        // $output .= '</div>';
     }
 
     if ( theme_mb2mcl_theme_setting( $PAGE, 'navbarplugin' ) && isloggedin() && ! isguestuser() )
@@ -67,12 +67,12 @@ function theme_mb2mcl_panel_links()
         $output .= '</div>';
     }
 
-    $output .= '<div class="header-tools-item tool-search">';
-    $output .= '<a href="#" class="header-tools-btn header-tools-btn-js search-btn" title="' . get_string('search','core') . '">';
-    $output .= '<i class="lni-search"></i>';
-    $output .= '</a>';
-    $output .= theme_mb2mcl_search_form();
-    $output .= '</div>';
+    // $output .= '<div class="header-tools-item tool-search">';
+    // $output .= '<a href="#" class="header-tools-btn header-tools-btn-js search-btn" title="' . get_string('search','core') . '">';
+    // $output .= '<i class="lni-search"></i>';
+    // $output .= '</a>';
+    // $output .= theme_mb2mcl_search_form();
+    // $output .= '</div>';
 
     if ( ! $isLoginPage )
     {
@@ -98,7 +98,7 @@ function theme_mb2mcl_panel_links()
         $output .= '<div class="header-tools-item tool-login">';
         $output .= '<a href="' . $login_link . '" class="header-tools-btn login-btn' . $logincls . $isjslink . '" title="' . $loginstring . '">';
         $output .= '<i class="' . $loginicon . '"></i>';
-        $output .= '</a>';
+        $output .= ' Login</a>';
         $output .= theme_mb2mcl_login_form();
         $output .= '</div>';
     }
@@ -141,21 +141,21 @@ function theme_mb2mcl_search_form ()
         $cls = ' isglobalsearch';
     }
 
-	$output .= '<div class="theme-searchform' . $cls . '" data-action_global="' . $search_action_global . '" data-action_course="' . $search_action . '" style="display:none;">';
-    $output .= '<a href="#" class="close-btn searchform-close" title="' . get_string( 'closebuttontitle' ) . '"><i class="lni-close"></i></a>';
-	$output .= '<form id="theme-search" action="' . new moodle_url($CFG->wwwroot . '/course/search.php') . '" method="get">';
-	$output .= '<input id="theme-coursesearchbox" type="text" value="" placeholder="' . get_string('enteryoursearchquery','search') . '" name="search">';
+	// $output .= '<div class="theme-searchform' . $cls . '" data-action_global="' . $search_action_global . '" data-action_course="' . $search_action . '" style="display:none;">';
+ //    // $output .= '<a href="#" class="close-btn searchform-close" title="' . get_string( 'closebuttontitle' ) . '"><i class="lni-close"></i></a>';
+	// $output .= '<form id="theme-search" action="' . new moodle_url($CFG->wwwroot . '/course/search.php') . '" method="get">';
+	// $output .= '<input id="theme-coursesearchbox" type="text" value="" placeholder="' . get_string('enteryoursearchquery','search') . '" name="search">';
 
     if ($global_search)
     {
-        $output .= '<div class="search-switch">';
-        $output .= '<span class="switch custom-switch">';
-        $output .= '<input type="checkbox" name="theme-search-checkbox" class="custom-control-input" id="theme-search-checkbox" data-name="theme-search-checkbox">';
-        $output .= '<label for="theme-search-checkbox" class="custom-control-label" data-globalstring="' . get_string('globalsearch','admin') .
-        '" data-coursesstring="' . get_string('searchcourses','core') . '">' . get_string('searchcourses','core') . '</label>';
-        $output .= '</span>';
-        $output .= '<button type="submit"><i class="lni-search"></i></button>';
-        $output .= '</div>';
+        // $output .= '<div class="search-switch">';
+        // $output .= '<span class="switch custom-switch">';
+        // $output .= '<input type="checkbox" name="theme-search-checkbox" class="custom-control-input" id="theme-search-checkbox" data-name="theme-search-checkbox">';
+        // $output .= '<label for="theme-search-checkbox" class="custom-control-label" data-globalstring="' . get_string('globalsearch','admin') .
+        // '" data-coursesstring="' . get_string('searchcourses','core') . '">' . get_string('searchcourses','core') . '</label>';
+        // $output .= '</span>';
+        // $output .= '<button type="submit"><i class="lni-search"></i></button>';
+        // $output .= '</div>';
     }
 
 	$output .= !$global_search ? '<button type="submit"><i class="lni-search"></i></button>' : '';
@@ -276,7 +276,7 @@ function theme_mb2mcl_login_form ()
 
 	$output .= '<div class="theme-loginform' . $cls . '" style="display:none;">';
 
-    $output .= '<a href="#" class="close-btn loginform-close" title="' . get_string( 'closebuttontitle' ) . '"><i class="lni-close"></i></a>';
+    // $output .= '<a href="#" class="close-btn loginform-close" title="' . get_string( 'closebuttontitle' ) . '"><i class="lni-close"></i></a>';
 
     if ( ( !isloggedin() || isguestuser() ) && ! $link_to_login )
 	{
